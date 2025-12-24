@@ -1,0 +1,107 @@
+# Prometheus Alert Rules for TradingBot V5
+
+groups:
+  - name: tradingbot_critical
+    rules:
+      # Bot Down
+      - alert: TradingBotDown
+        expr: tradingbot_running == 0
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "TradingBot is down"
+          description: "TradingBot has been down for more than 1 minute"
+
+      # High Drawdown
+      - alert: HighDrawdown
+        expr: tradingbot_max_drawdown > 0.15
+        for: 5m
+        labels:
+          severity: critical
+        annotations:
+          summary: "High drawdown detected"
+          description: "Drawdown is at {{ $value | printf \"%.1f\" }}%"
+
+      # Component Failure
+      - alert: ComponentFailure
+        expr: tradingbot_component_health == 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Component {{ $labels.component }} is down"
+          description: "The {{ $labels.component }} component has been down for 2 minutes"
+
+  - name: tradingbot_warnings
+    rules:
+      # Low Win Rate
+      - alert: LowWinRate
+        expr: tradingbot_win_rate < 0.45
+        for: 30m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Win rate is low"
+          description: "Win rate is at {{ $value | printf \"%.1f\" }}%"
+
+      # Negative PnL Today
+      - alert: NegativeDailyPnL
+        expr: tradingbot_today_pnl_usd < -500
+        for: 1h
+        labels:
+          severity: warning
+        annotations:
+          summary: "Negative daily PnL"
+          description: "Today's PnL is ${{ $value | printf \"%.2f\" }}"
+
+      # Low Sharpe Ratio
+      - alert: LowSharpeRatio
+        expr: tradingbot_sharpe_ratio < 0.5
+        for: 1h
+        labels:
+          severity: warning
+        annotations:
+          summary: "Low Sharpe ratio"
+          description: "Sharpe ratio is {{ $value | printf \"%.2f\" }}"
+
+      # Extreme Sentiment
+      - alert: ExtremeSentiment
+        expr: abs(tradingbot_sentiment_score) > 0.6
+        for: 15m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Extreme market sentiment detected"
+          description: "Sentiment score is {{ $value | printf \"%.2f\" }}"
+
+      # High Risk Level
+      - alert: HighRiskLevel
+        expr: tradingbot_risk_level == 2
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High risk level active"
+          description: "Risk level is set to HIGH"
+
+  - name: tradingbot_info
+    rules:
+      # Model Updated
+      - alert: ModelUpdated
+        expr: changes(tradingbot_model_accuracy[1h]) > 0
+        labels:
+          severity: info
+        annotations:
+          summary: "ML model has been updated"
+          description: "New model accuracy: {{ $value | printf \"%.2f\" }}"
+
+      # No Arbitrage Opportunities
+      - alert: NoArbitrageOpportunities
+        expr: sum(tradingbot_arb_opportunities) == 0
+        for: 1h
+        labels:
+          severity: info
+        annotations:
+          summary: "No arbitrage opportunities found"
+          description: "No opportunities detected in the last hour"
