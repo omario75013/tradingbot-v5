@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420.0mm" height="297.0mm" viewBox="0 0 420.0 297.0" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="420.0" height="297.0" fill="#FFFFFF"/>
+  <rect x="10.0" y="13.15306122448979" width="400.0" height="270.6938775510204" fill="none" stroke="#9C7A4D" stroke-width="0.3"/>
+  <svg x="12.0" y="15.15306122448979" width="396.0" height="266.6938775510204" viewBox="0 0 980 660" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  
+  <defs>
+    <pattern id="wood" width="6" height="10" patternUnits="userSpaceOnUse">
+      <rect width="6" height="10" fill="#8a6a45"/><line x1="0" y1="0" x2="0" y2="10" stroke="#6f5436" stroke-width="0.8"/>
+    </pattern>
+    <pattern id="mosaic" width="9" height="9" patternUnits="userSpaceOnUse">
+      <rect width="9" height="9" fill="#7a6f5f"/><rect width="7.5" height="7.5" x="0.75" y="0.75" fill="#9C7A4D"/>
+    </pattern>
+    <pattern id="paper" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="14" height="14" fill="#cdbfa6"/><line x1="0" y1="0" x2="0" y2="14" stroke="#b8a888" stroke-width="0.7"/>
+    </pattern>
+    <linearGradient id="mould" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3efe8"/><stop offset="0.5" stop-color="#dcd5c8"/><stop offset="1" stop-color="#b9b0a0"/>
+    </linearGradient>
+    <filter id="sh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <radialGradient id="light" cx="0.5" cy="0" r="1">
+      <stop offset="0" stop-color="#fff6e2" stop-opacity="0.55"/><stop offset="1" stop-color="#fff6e2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+
+  <!-- title -->
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">MATÉRIAUTHÈQUE — ÉLÉVATION MUR OUEST</text>
+  <text x="952" y="32" fill="#EDE9E3" font-size="13" text-anchor="end" letter-spacing="1">SYSTÈME DE PRÉSENTATION MODULABLE</text>
+  <text x="952" y="52" fill="#9C7A4D" font-size="11" text-anchor="end">L 6.20 × H 3.20 m · éch. ≈ 1:62 · cotes en m</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <!-- ===== WALL ELEVATION (x 90..710, floor y=430, 1m=100px) ===== -->
+  <!-- back wall -->
+  <rect x="90" y="110" width="620" height="320" fill="#1A1A1A"/>
+
+  <!-- top valance / pelmet with logo -->
+  <rect x="90" y="110" width="620" height="44" fill="#161616"/>
+  <rect x="90" y="151" width="620" height="3" fill="#9C7A4D"/>
+  <text x="400" y="138" fill="#9C7A4D" font-size="13" letter-spacing="6" text-anchor="middle" font-weight="600">D A R T A N K  ·  M A T É R I A U T H È Q U E</text>
+
+  <!-- lighting rail + spots -->
+  <rect x="96" y="160" width="608" height="4" rx="2" fill="#9C7A4D"/>
+  <g>
+    <!-- light cones + spots -->
+    <g fill="url(#light)"><polygon points="130,166 96,360 164,360"/><polygon points="225,166 191,360 259,360"/><polygon points="320,166 286,360 354,360"/><polygon points="415,166 381,360 449,360"/><polygon points="510,166 476,360 544,360"/><polygon points="605,166 571,360 639,360"/></g>
+    <g fill="#1A1A1A" stroke="#9C7A4D" stroke-width="1">
+      <circle cx="130" cy="164" r="4"/><circle cx="225" cy="164" r="4"/><circle cx="320" cy="164" r="4"/><circle cx="415" cy="164" r="4"/><circle cx="510" cy="164" r="4"/><circle cx="605" cy="164" r="4"/>
+    </g>
+  </g>
+
+  <!-- vertical mounting uprights (crémaillère) -->
+  <g fill="#9C7A4D" opacity="0.9">
+    <rect x="89" y="170" width="4" height="170"/><rect x="268" y="170" width="4" height="170"/>
+    <rect x="388" y="170" width="4" height="170"/><rect x="508" y="170" width="4" height="170"/><rect x="707" y="170" width="4" height="170"/>
+  </g>
+  <g fill="#6f5634"><!-- slot ticks -->
+    <g><rect x="89" y="185" width="4" height="2"/><rect x="89" y="210" width="4" height="2"/><rect x="89" y="235" width="4" height="2"/><rect x="89" y="260" width="4" height="2"/><rect x="89" y="285" width="4" height="2"/><rect x="89" y="310" width="4" height="2"/></g>
+  </g>
+
+  <!-- ===== display field samples (y 170..330) ===== -->
+  <!-- SOLS : large boards -->
+  <g filter="url(#sh)">
+    <rect x="104" y="182" width="46" height="150" fill="url(#wood)"/>
+    <rect x="160" y="182" width="46" height="150" fill="#8f8a82"/>
+    <rect x="216" y="182" width="46" height="150" fill="#6b6660"/>
+  </g>
+  <g fill="#EDE9E3" font-size="7" text-anchor="middle">
+    <rect x="104" y="320" width="46" height="12" fill="#9C7A4D"/><text x="127" y="329" fill="#1A1A1A">PARQUET</text>
+    <rect x="160" y="320" width="46" height="12" fill="#9C7A4D"/><text x="183" y="329" fill="#1A1A1A">PIERRE</text>
+    <rect x="216" y="320" width="46" height="12" fill="#9C7A4D"/><text x="239" y="329" fill="#1A1A1A">GD FORMAT</text>
+  </g>
+
+  <!-- MOULURES / CORNICHES : mounted profiles -->
+  <g filter="url(#sh)">
+    <rect x="280" y="186" width="100" height="20" fill="url(#mould)"/>
+    <rect x="280" y="218" width="100" height="16" fill="url(#mould)"/>
+    <rect x="280" y="246" width="100" height="24" fill="url(#mould)"/>
+    <rect x="280" y="282" width="100" height="14" fill="url(#mould)"/>
+  </g>
+  <g stroke="#9a917f" stroke-width="0.8" opacity="0.7">
+    <line x1="280" y1="196" x2="380" y2="196"/><line x1="280" y1="226" x2="380" y2="226"/><line x1="280" y1="258" x2="380" y2="258"/>
+  </g>
+  <rect x="280" y="320" width="100" height="12" fill="#9C7A4D"/><text x="330" y="329" fill="#1A1A1A" font-size="7" text-anchor="middle">MOULURES / CORNICHES</text>
+
+  <!-- MOSAÏQUES : sample sheets grid -->
+  <g filter="url(#sh)">
+    <rect x="398" y="184" width="50" height="44" fill="url(#mosaic)"/><rect x="454" y="184" width="50" height="44" fill="#5f574a"/>
+    <rect x="398" y="234" width="50" height="44" fill="#6b6155"/><rect x="454" y="234" width="50" height="44" fill="url(#mosaic)"/>
+    <rect x="398" y="284" width="50" height="30" fill="url(#mosaic)"/><rect x="454" y="284" width="50" height="30" fill="#7a6f5f"/>
+  </g>
+  <rect x="398" y="320" width="106" height="12" fill="#9C7A4D"/><text x="451" y="329" fill="#1A1A1A" font-size="7.5" text-anchor="middle">MOSAÏQUES</text>
+
+  <!-- PAPIERS PEINTS / MAISON DRAPÉE : hung drops (gamme élargie) -->
+  <g filter="url(#sh)">
+    <path d="M520,182 h40 v140 q-20,8 -40,0 z" fill="url(#paper)"/>
+    <path d="M564,182 h40 v140 q-20,8 -40,0 z" fill="#b9a98a"/>
+    <path d="M608,182 h40 v140 q-20,8 -40,0 z" fill="url(#paper)"/>
+    <path d="M652,182 h40 v140 q-20,8 -40,0 z" fill="#a89070"/>
+  </g>
+  <g stroke="#a8987a" stroke-width="0.7" opacity="0.6">
+    <line x1="572" y1="186" x2="572" y2="318"/><line x1="584" y1="186" x2="584" y2="318"/><line x1="596" y1="186" x2="596" y2="318"/>
+  </g>
+  <text x="672" y="200" fill="#1A1A1A" font-size="6" text-anchor="middle" transform="rotate(-90 672 250)" opacity="0.6">MAISON DRAPÉE</text>
+  <rect x="510" y="320" width="184" height="12" fill="#9C7A4D"/><text x="602" y="329" fill="#1A1A1A" font-size="7.5" text-anchor="middle">PAPIERS PEINTS · MAISON DRAPÉE</text>
+
+  <!-- ===== consultation shelf (tablette 0.90 m) ===== -->
+  <rect x="86" y="334" width="628" height="7" rx="1" fill="#9C7A4D" filter="url(#sh)"/>
+  <rect x="86" y="341" width="628" height="3" fill="#6f5634"/>
+
+  <!-- ===== low storage cabinets (0.15 - 0.90) ===== -->
+  <rect x="90" y="344" width="620" height="71" fill="#232220"/>
+  <g stroke="#3a3833" stroke-width="1">
+    <line x1="195" y1="344" x2="195" y2="415"/><line x1="300" y1="344" x2="300" y2="415"/><line x1="405" y1="344" x2="405" y2="415"/><line x1="510" y1="344" x2="510" y2="415"/><line x1="605" y1="344" x2="605" y2="415"/>
+  </g>
+  <g fill="#9C7A4D"><!-- handles -->
+    <rect x="135" y="375" width="16" height="3"/><rect x="240" y="375" width="16" height="3"/><rect x="345" y="375" width="16" height="3"/><rect x="450" y="375" width="16" height="3"/><rect x="550" y="375" width="16" height="3"/><rect x="650" y="375" width="16" height="3"/>
+  </g>
+  <text x="400" y="392" fill="#6b675f" font-size="8" text-anchor="middle" letter-spacing="1">rangement bas / réserve d'échantillons + tiroirs de consultation</text>
+
+  <!-- plinth + floor -->
+  <rect x="90" y="415" width="620" height="15" fill="#141312"/>
+  <rect x="70" y="430" width="660" height="10" fill="#d9d2c6"/>
+  <line x1="70" y1="430" x2="730" y2="430" stroke="#1A1A1A" stroke-width="1.5"/>
+
+  <!-- eye level line -->
+  <line x1="90" y1="275" x2="710" y2="275" stroke="#9C7A4D" stroke-width="0.8" stroke-dasharray="2 4" opacity="0.7"/>
+  <text x="714" y="278" fill="#9C7A4D" font-size="8">ligne de regard 1.55</text>
+
+  <!-- ===== vertical dimensions (left) ===== -->
+  <g stroke="#777" stroke-width="0.8" fill="none">
+    <line x1="52" y1="110" x2="52" y2="430"/>
+    <line x1="47" y1="430" x2="57" y2="430"/><line x1="47" y1="341" x2="57" y2="341"/><line x1="47" y1="170" x2="57" y2="170"/><line x1="47" y1="110" x2="57" y2="110"/>
+  </g>
+  <g fill="#555" font-size="9" text-anchor="middle">
+    <text transform="translate(45,388) rotate(-90)">0.90</text>
+    <text transform="translate(45,258) rotate(-90)">2.60</text>
+    <text transform="translate(45,140) rotate(-90)">3.20</text>
+  </g>
+  <g fill="#9C7A4D" font-size="8" text-anchor="middle">
+    <text transform="translate(33,388) rotate(-90)">mobilier bas</text>
+    <text transform="translate(33,255) rotate(-90)">champ d'exposition 1.70</text>
+    <text transform="translate(33,140) rotate(-90)">bandeau + éclairage</text>
+  </g>
+
+  <!-- horizontal dims (top: total / gammes bottom) -->
+  <g stroke="#777" stroke-width="0.8">
+    <line x1="90" y1="96" x2="710" y2="96"/><line x1="90" y1="91" x2="90" y2="101"/><line x1="710" y1="91" x2="710" y2="101"/>
+  </g>
+  <text x="400" y="92" fill="#555" font-size="9" text-anchor="middle">6.20</text>
+  <g stroke="#aaa" stroke-width="0.7" fill="#777" font-size="8" text-anchor="middle">
+    <line x1="90" y1="450" x2="270" y2="450"/><line x1="270" y1="450" x2="390" y2="450"/><line x1="390" y1="450" x2="510" y2="450"/><line x1="510" y1="450" x2="710" y2="450"/>
+    <line x1="90" y1="446" x2="90" y2="454"/><line x1="270" y1="446" x2="270" y2="454"/><line x1="390" y1="446" x2="390" y2="454"/><line x1="510" y1="446" x2="510" y2="454"/><line x1="710" y1="446" x2="710" y2="454"/>
+    <text x="180" y="462">SOLS 1.80</text><text x="330" y="462">MOUL. 1.20</text><text x="450" y="462">MOSA. 1.20</text><text x="610" y="462">P.P. 2.00</text>
+  </g>
+  <!-- reference counts per gamme -->
+  <g font-size="7" text-anchor="middle">
+    <rect x="160" y="468" width="40" height="11" rx="5" fill="#1A1A1A"/><text x="180" y="476" fill="#9C7A4D">9 réf.</text>
+    <rect x="310" y="468" width="40" height="11" rx="5" fill="#1A1A1A"/><text x="330" y="476" fill="#9C7A4D">10 réf.</text>
+    <rect x="430" y="468" width="40" height="11" rx="5" fill="#1A1A1A"/><text x="450" y="476" fill="#9C7A4D">12 réf.</text>
+    <rect x="590" y="468" width="40" height="11" rx="5" fill="#1A1A1A"/><text x="610" y="476" fill="#9C7A4D">10 réf.</text>
+  </g>
+
+  <!-- callout: upright detail -->
+  <g>
+    <circle cx="268" cy="240" r="4" fill="none" stroke="#9C7A4D" stroke-width="1.2"/>
+    <line x1="272" y1="240" x2="300" y2="500" stroke="#9C7A4D" stroke-width="0.6" stroke-dasharray="2 2"/>
+  </g>
+
+  <!-- ===== LEGEND PANEL ===== -->
+  <rect x="740" y="96" width="216" height="510" fill="#1A1A1A" rx="4"/>
+  <text x="756" y="122" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">SYSTÈME MODULABLE</text>
+  <line x1="756" y1="130" x2="940" y2="130" stroke="#9C7A4D" stroke-width="1"/>
+  <g fill="#EDE9E3" font-size="9.5">
+    <text x="756" y="150">▸ Montants à crémaillère bronze</text>
+    <text x="766" y="163" fill="#A9A399" font-size="8.5">panneaux clipsables &amp; interchangeables</text>
+    <text x="756" y="182">▸ Fond anthracite mat</text>
+    <text x="766" y="195" fill="#A9A399" font-size="8.5">la matière ressort, zéro reflet parasite</text>
+    <text x="756" y="214">▸ Tablette de consultation @ 0.90 m</text>
+    <text x="766" y="227" fill="#A9A399" font-size="8.5">pose &amp; comparaison des échantillons</text>
+    <text x="756" y="246">▸ Réserve intégrée sous tablette</text>
+    <text x="756" y="265">▸ Rail de spots orientables au plafond</text>
+  </g>
+
+  <text x="756" y="298" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">HAUTEURS CLÉS</text>
+  <line x1="756" y1="306" x2="940" y2="306" stroke="#9C7A4D" stroke-width="1"/>
+  <g fill="#EDE9E3" font-size="9.5">
+    <text x="756" y="324">Échantillon premium (regard)</text><text x="940" y="324" text-anchor="end" fill="#9C7A4D">1.40–1.80</text>
+    <text x="756" y="342">Tablette de travail</text><text x="940" y="342" text-anchor="end" fill="#9C7A4D">0.90</text>
+    <text x="756" y="360">Haut champ d'exposition</text><text x="940" y="360" text-anchor="end" fill="#9C7A4D">2.60</text>
+    <text x="756" y="378">Sous-plafond</text><text x="940" y="378" text-anchor="end" fill="#9C7A4D">3.20</text>
+  </g>
+
+  <text x="756" y="410" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">FORMATS PAR GAMME</text>
+  <line x1="756" y1="418" x2="940" y2="418" stroke="#9C7A4D" stroke-width="1"/>
+  <g fill="#EDE9E3" font-size="9">
+    <rect x="756" y="428" width="12" height="12" fill="url(#wood)"/><text x="774" y="438">Sols — boards 40×60 verticaux</text>
+    <rect x="756" y="448" width="12" height="12" fill="url(#mould)"/><text x="774" y="458">Moulures — profils réels montés</text>
+    <rect x="756" y="468" width="12" height="12" fill="url(#mosaic)"/><text x="774" y="478">Mosaïques — plaques 30×30</text>
+    <rect x="756" y="488" width="12" height="12" fill="url(#paper)"/><text x="774" y="498">Papiers peints — lés tendus</text>
+  </g>
+
+  <text x="756" y="528" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">ÉCONOMIE</text>
+  <line x1="756" y1="536" x2="940" y2="536" stroke="#9C7A4D" stroke-width="1"/>
+  <text x="756" y="554" fill="#A9A399" font-size="8.8">Structure fixe (montants + bandeau) ;</text>
+  <text x="756" y="567" fill="#A9A399" font-size="8.8">seuls les panneaux évoluent au gré des</text>
+  <text x="756" y="580" fill="#A9A399" font-size="8.8">collections. Réagencement en minutes,</text>
+  <text x="756" y="593" fill="#A9A399" font-size="8.8">sans travaux.</text>
+
+  <text x="28" y="636" fill="#999" font-size="9">DARTANK · Maison Drapée — Élévation matériauthèque (mur ouest) — itération 1</text>
+
+  </svg>
+  <text x="12.0" y="292.0" fill="#999" font-size="3.2">DARTANK · Dossier showroom de prescription · 70 m²</text>
+  <text x="210.0" y="292.0" fill="#9C7A4D" font-size="3.2" text-anchor="middle">Élévation matériauthèque</text>
+  <text x="408.0" y="292.0" fill="#999" font-size="3.2" text-anchor="end">A3 · p. 4/10</text>
+</svg>
