@@ -56,9 +56,24 @@ prescription** → passage au **comptoir** en fond. Boucle naturelle, sans cul-d
 |---|---|---|---|
 | 0 | Vue d'ensemble — plan 2D + parcours + palette | `01-plan-amenagement.svg` | ✅ |
 | 1 | Élévation matériauthèque (système d'échantillons) | `02-elevation-materiautheque.svg` | ✅ |
+| 1bis | Détail montant à crémaillère + formats / références | `03-detail-montant-formats.svg` | ✅ |
+| 1ter | Élévation mur est — 3 ambiances scénarisées | `04-mur-est-ambiances.svg` | ✅ |
 | 2 | Concept d'éclairage | à venir | ⏳ |
 | 3 | Planche matériaux & finitions (mood board) | à venir | ⏳ |
 | 4 | Signalétique + logo DARTANK | à venir | ⏳ |
 | 5 | Vue perspective (option) | à venir | ⏳ |
+
+### Matériauthèque — proportions retenues (linéaire 6,20 m)
+
+| Gamme | Linéaire | Format échantillon | Support | Réf. |
+|---|---|---|---|---|
+| Sols | 1,80 m | board 40×60 cm | board clipsé | 9 |
+| Moulures / corniches | 1,20 m | profil réel L.50 cm | bras profilé | 10 |
+| Mosaïques | 1,20 m | plaque 30×30 cm | plaque aimantée | 12 |
+| Papiers peints + Maison Drapée | 2,00 m | lé 50×140 cm | barre + lest | 10 |
+
+Montant à crémaillère bronze, pas de 32 mm, saillie totale ≈ 70 mm, panneaux
+interchangeables ép. 19 mm. Étiquetage : plaquette bronze gravée (réf. + collection)
++ QR vers fiche technique digitale.
 
 > Les SVG sont exportés en PNG dans `exports/` (via `cairosvg`).

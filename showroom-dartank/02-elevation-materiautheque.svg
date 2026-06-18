@@ -52,7 +52,7 @@
   <!-- vertical mounting uprights (crémaillère) -->
   <g fill="#9C7A4D" opacity="0.9">
     <rect x="89" y="170" width="4" height="170"/><rect x="268" y="170" width="4" height="170"/>
-    <rect x="408" y="170" width="4" height="170"/><rect x="548" y="170" width="4" height="170"/><rect x="707" y="170" width="4" height="170"/>
+    <rect x="388" y="170" width="4" height="170"/><rect x="508" y="170" width="4" height="170"/><rect x="707" y="170" width="4" height="170"/>
   </g>
   <g fill="#6f5634"><!-- slot ticks -->
     <g><rect x="89" y="185" width="4" height="2"/><rect x="89" y="210" width="4" height="2"/><rect x="89" y="235" width="4" height="2"/><rect x="89" y="260" width="4" height="2"/><rect x="89" y="285" width="4" height="2"/><rect x="89" y="310" width="4" height="2"/></g>
@@ -73,34 +73,36 @@
 
   <!-- MOULURES / CORNICHES : mounted profiles -->
   <g filter="url(#sh)">
-    <rect x="282" y="186" width="120" height="20" fill="url(#mould)"/>
-    <rect x="282" y="218" width="120" height="16" fill="url(#mould)"/>
-    <rect x="282" y="246" width="120" height="24" fill="url(#mould)"/>
-    <rect x="282" y="282" width="120" height="14" fill="url(#mould)"/>
+    <rect x="280" y="186" width="100" height="20" fill="url(#mould)"/>
+    <rect x="280" y="218" width="100" height="16" fill="url(#mould)"/>
+    <rect x="280" y="246" width="100" height="24" fill="url(#mould)"/>
+    <rect x="280" y="282" width="100" height="14" fill="url(#mould)"/>
   </g>
   <g stroke="#9a917f" stroke-width="0.8" opacity="0.7">
-    <line x1="282" y1="196" x2="402" y2="196"/><line x1="282" y1="226" x2="402" y2="226"/><line x1="282" y1="258" x2="402" y2="258"/>
+    <line x1="280" y1="196" x2="380" y2="196"/><line x1="280" y1="226" x2="380" y2="226"/><line x1="280" y1="258" x2="380" y2="258"/>
   </g>
-  <rect x="282" y="320" width="120" height="12" fill="#9C7A4D"/><text x="342" y="329" fill="#1A1A1A" font-size="7.5" text-anchor="middle">MOULURES / CORNICHES</text>
+  <rect x="280" y="320" width="100" height="12" fill="#9C7A4D"/><text x="330" y="329" fill="#1A1A1A" font-size="7" text-anchor="middle">MOULURES / CORNICHES</text>
 
   <!-- MOSAÏQUES : sample sheets grid -->
   <g filter="url(#sh)">
-    <rect x="422" y="184" width="55" height="44" fill="url(#mosaic)"/><rect x="483" y="184" width="55" height="44" fill="#5f574a"/>
-    <rect x="422" y="234" width="55" height="44" fill="#6b6155"/><rect x="483" y="234" width="55" height="44" fill="url(#mosaic)"/>
-    <rect x="422" y="284" width="55" height="30" fill="url(#mosaic)"/><rect x="483" y="284" width="55" height="30" fill="#7a6f5f"/>
+    <rect x="398" y="184" width="50" height="44" fill="url(#mosaic)"/><rect x="454" y="184" width="50" height="44" fill="#5f574a"/>
+    <rect x="398" y="234" width="50" height="44" fill="#6b6155"/><rect x="454" y="234" width="50" height="44" fill="url(#mosaic)"/>
+    <rect x="398" y="284" width="50" height="30" fill="url(#mosaic)"/><rect x="454" y="284" width="50" height="30" fill="#7a6f5f"/>
   </g>
-  <rect x="422" y="320" width="116" height="12" fill="#9C7A4D"/><text x="480" y="329" fill="#1A1A1A" font-size="7.5" text-anchor="middle">MOSAÏQUES</text>
+  <rect x="398" y="320" width="106" height="12" fill="#9C7A4D"/><text x="451" y="329" fill="#1A1A1A" font-size="7.5" text-anchor="middle">MOSAÏQUES</text>
 
-  <!-- PAPIERS PEINTS : hung drops -->
+  <!-- PAPIERS PEINTS / MAISON DRAPÉE : hung drops (gamme élargie) -->
   <g filter="url(#sh)">
-    <path d="M560,182 h44 v140 q-22,8 -44,0 z" fill="url(#paper)"/>
-    <path d="M610,182 h44 v140 q-22,8 -44,0 z" fill="#b9a98a"/>
-    <path d="M660,182 h44 v140 q-22,8 -44,0 z" fill="url(#paper)"/>
+    <path d="M520,182 h40 v140 q-20,8 -40,0 z" fill="url(#paper)"/>
+    <path d="M564,182 h40 v140 q-20,8 -40,0 z" fill="#b9a98a"/>
+    <path d="M608,182 h40 v140 q-20,8 -40,0 z" fill="url(#paper)"/>
+    <path d="M652,182 h40 v140 q-20,8 -40,0 z" fill="#a89070"/>
   </g>
   <g stroke="#a8987a" stroke-width="0.7" opacity="0.6">
-    <line x1="618" y1="186" x2="618" y2="318"/><line x1="630" y1="186" x2="630" y2="318"/><line x1="642" y1="186" x2="642" y2="318"/>
+    <line x1="572" y1="186" x2="572" y2="318"/><line x1="584" y1="186" x2="584" y2="318"/><line x1="596" y1="186" x2="596" y2="318"/>
   </g>
-  <rect x="560" y="320" width="144" height="12" fill="#9C7A4D"/><text x="632" y="329" fill="#1A1A1A" font-size="7.5" text-anchor="middle">PAPIERS PEINTS · MAISON DRAPÉE</text>
+  <text x="672" y="200" fill="#1A1A1A" font-size="6" text-anchor="middle" transform="rotate(-90 672 250)" opacity="0.6">MAISON DRAPÉE</text>
+  <rect x="510" y="320" width="184" height="12" fill="#9C7A4D"/><text x="602" y="329" fill="#1A1A1A" font-size="7.5" text-anchor="middle">PAPIERS PEINTS · MAISON DRAPÉE</text>
 
   <!-- ===== consultation shelf (tablette 0.90 m) ===== -->
   <rect x="86" y="334" width="628" height="7" rx="1" fill="#9C7A4D" filter="url(#sh)"/>
@@ -147,9 +149,16 @@
   </g>
   <text x="400" y="92" fill="#555" font-size="9" text-anchor="middle">6.20</text>
   <g stroke="#aaa" stroke-width="0.7" fill="#777" font-size="8" text-anchor="middle">
-    <line x1="90" y1="450" x2="270" y2="450"/><line x1="270" y1="450" x2="410" y2="450"/><line x1="410" y1="450" x2="550" y2="450"/><line x1="550" y1="450" x2="710" y2="450"/>
-    <line x1="90" y1="446" x2="90" y2="454"/><line x1="270" y1="446" x2="270" y2="454"/><line x1="410" y1="446" x2="410" y2="454"/><line x1="550" y1="446" x2="550" y2="454"/><line x1="710" y1="446" x2="710" y2="454"/>
-    <text x="180" y="462">SOLS 1.80</text><text x="340" y="462">MOUL. 1.40</text><text x="480" y="462">MOSA. 1.40</text><text x="630" y="462">P.P. 1.60</text>
+    <line x1="90" y1="450" x2="270" y2="450"/><line x1="270" y1="450" x2="390" y2="450"/><line x1="390" y1="450" x2="510" y2="450"/><line x1="510" y1="450" x2="710" y2="450"/>
+    <line x1="90" y1="446" x2="90" y2="454"/><line x1="270" y1="446" x2="270" y2="454"/><line x1="390" y1="446" x2="390" y2="454"/><line x1="510" y1="446" x2="510" y2="454"/><line x1="710" y1="446" x2="710" y2="454"/>
+    <text x="180" y="462">SOLS 1.80</text><text x="330" y="462">MOUL. 1.20</text><text x="450" y="462">MOSA. 1.20</text><text x="610" y="462">P.P. 2.00</text>
+  </g>
+  <!-- reference counts per gamme -->
+  <g font-size="7" text-anchor="middle">
+    <rect x="160" y="468" width="40" height="11" rx="5" fill="#1A1A1A"/><text x="180" y="476" fill="#9C7A4D">9 réf.</text>
+    <rect x="310" y="468" width="40" height="11" rx="5" fill="#1A1A1A"/><text x="330" y="476" fill="#9C7A4D">10 réf.</text>
+    <rect x="430" y="468" width="40" height="11" rx="5" fill="#1A1A1A"/><text x="450" y="476" fill="#9C7A4D">12 réf.</text>
+    <rect x="590" y="468" width="40" height="11" rx="5" fill="#1A1A1A"/><text x="610" y="476" fill="#9C7A4D">10 réf.</text>
   </g>
 
   <!-- callout: upright detail -->
