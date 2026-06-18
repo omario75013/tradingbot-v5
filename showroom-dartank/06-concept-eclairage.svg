@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="pool" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd98a" stop-opacity="0.6"/><stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">CONCEPT D'ÉCLAIRAGE — PLAN DE PLAFOND</text>
+  <text x="952" y="32" fill="#EDE9E3" font-size="13" text-anchor="end">VALORISATION DES ÉCHANTILLONS</text>
+  <text x="952" y="52" fill="#9C7A4D" font-size="11" text-anchor="end">2700–3000 K · IRC &gt; 90 · éch. ≈ 1:82</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <!-- ===== reflected ceiling plan (1m=42px, off 70,110) ===== -->
+  <rect x="62" y="102" width="310" height="436" fill="#1A1A1A"/>
+  <rect x="70" y="110" width="294" height="420" fill="#211f1c"/>
+  <text x="217" y="100" fill="#555" font-size="9" text-anchor="middle">façade ↓ (entrée)</text>
+
+  <!-- LED linear in valances (perimeter long walls) -->
+  <g stroke="#ffd98a" stroke-width="3" stroke-linecap="round" opacity="0.85" stroke-dasharray="10 4">
+    <line x1="78" y1="173" x2="78" y2="446"/>   <!-- west valance -->
+    <line x1="356" y1="185" x2="356" y2="425"/> <!-- east valance -->
+  </g>
+
+  <!-- track rails (bronze) -->
+  <g stroke="#9C7A4D" stroke-width="2.5">
+    <line x1="98" y1="173" x2="98" y2="446"/>   <!-- west track -->
+    <line x1="338" y1="185" x2="338" y2="425"/> <!-- east track -->
+    <line x1="217" y1="320" x2="217" y2="446"/> <!-- island track -->
+    <line x1="175" y1="257" x2="259" y2="257"/> <!-- table linear -->
+    <line x1="175" y1="495" x2="322" y2="495"/> <!-- entry/accueil track -->
+  </g>
+
+  <!-- light pools (accent on samples) -->
+  <g><circle cx="88" cy="205" r="16" fill="url(#pool)"/><circle cx="88" cy="265" r="16" fill="url(#pool)"/><circle cx="88" cy="325" r="16" fill="url(#pool)"/><circle cx="88" cy="385" r="16" fill="url(#pool)"/>
+     <circle cx="348" cy="230" r="16" fill="url(#pool)"/><circle cx="348" cy="300" r="16" fill="url(#pool)"/><circle cx="348" cy="375" r="16" fill="url(#pool)"/>
+     <ellipse cx="217" cy="257" rx="50" ry="20" fill="url(#pool)"/></g>
+
+  <!-- spots on tracks -->
+  <g fill="#1A1A1A" stroke="#9C7A4D" stroke-width="1.3">
+    <circle cx="98" cy="205" r="4.5"/><circle cx="98" cy="265" r="4.5"/><circle cx="98" cy="325" r="4.5"/><circle cx="98" cy="385" r="4.5"/><circle cx="98" cy="435" r="4.5"/>
+    <circle cx="338" cy="215" r="4.5"/><circle cx="338" cy="270" r="4.5"/><circle cx="338" cy="330" r="4.5"/><circle cx="338" cy="395" r="4.5"/>
+    <circle cx="217" cy="345" r="4.5"/><circle cx="217" cy="400" r="4.5"/>
+    <circle cx="195" cy="495" r="4.5"/><circle cx="240" cy="495" r="4.5"/><circle cx="290" cy="495" r="4.5"/>
+  </g>
+  <!-- table linear pendant -->
+  <rect x="178" y="254" width="78" height="6" rx="3" fill="#9C7A4D"/>
+  <!-- signature wall backlit halo (front-east) -->
+  <rect x="338" y="455" width="22" height="60" rx="3" fill="#ffd98a" opacity="0.5"/>
+  <rect x="356" y="455" width="6" height="60" fill="#9C7A4D"/>
+
+  <!-- zone lux callouts -->
+  <g fill="#EDE9E3" font-size="8" text-anchor="middle">
+    <text x="150" y="300" fill="#ffd98a">matériauthèque</text><text x="150" y="312">accent 600–800 lx</text>
+    <text x="300" y="300" fill="#ffd98a">ambiances</text><text x="300" y="312">accent 500–700 lx</text>
+    <text x="217" y="240" fill="#ffd98a">table</text><text x="217" y="285">500 lx · 3000K</text>
+    <text x="217" y="475" fill="#ffd98a">accueil</text><text x="217" y="520" fill="#ffd98a">logo rétroécl.</text>
+    <text x="150" y="430" fill="#888">général indirect ≈ 180 lx</text>
+  </g>
+
+  <!-- scale + north -->
+  <text x="70" y="555" fill="#555" font-size="9">0────1────2 m (≈)</text>
+
+  <!-- ===== LEGEND / SCHEDULE ===== -->
+  <rect x="400" y="92" width="556" height="248" fill="#1A1A1A" rx="4"/>
+  <text x="418" y="118" fill="#9C7A4D" font-size="13" letter-spacing="2" font-weight="600">APPAREILS</text>
+  <line x1="418" y1="126" x2="938" y2="126" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="10" fill="#EDE9E3">
+    <circle cx="430" cy="146" r="5" fill="#1A1A1A" stroke="#9C7A4D" stroke-width="1.3"/>
+    <text x="446" y="149">Spot orientable sur rail — LED 9W, faisceau 24°, accentuation échantillons</text>
+    <rect x="425" y="167" width="12" height="4" rx="2" fill="#ffd98a"/>
+    <text x="446" y="173">Ligne LED linéaire en corniche/valance — général indirect, anti-éblouissement</text>
+    <rect x="424" y="189" width="14" height="5" rx="2" fill="#9C7A4D"/>
+    <text x="446" y="195">Suspension linéaire au-dessus de la table de prescription — 500 lx</text>
+    <rect x="426" y="210" width="10" height="9" fill="#ffd98a" opacity="0.6"/>
+    <text x="446" y="219">Rétroéclairage halo — mur signature &amp; enseigne (logo DARTANK)</text>
+    <circle cx="430" cy="240" r="5" fill="url(#pool)"/>
+    <text x="446" y="243">Wall-grazing — lèche-mur sur les ambiances scénarisées</text>
+  </g>
+  <text x="418" y="276" fill="#9C7A4D" font-size="11" letter-spacing="1" font-weight="600">PARAMÈTRES CLÉS</text>
+  <g font-size="9.5" fill="#EDE9E3">
+    <text x="418" y="296">Température</text><text x="640" y="296" text-anchor="end" fill="#9C7A4D">2700–3000 K (blanc chaud)</text>
+    <text x="418" y="313">Rendu des couleurs</text><text x="640" y="313" text-anchor="end" fill="#9C7A4D">IRC &gt; 90 — fidélité matière</text>
+    <text x="660" y="296" fill="#EDE9E3">Général</text><text x="938" y="296" text-anchor="end" fill="#9C7A4D">150–200 lx</text>
+    <text x="660" y="313" fill="#EDE9E3">Accent échantillons</text><text x="938" y="313" text-anchor="end" fill="#9C7A4D">600–800 lx (×4)</text>
+  </g>
+
+  <!-- scenarios -->
+  <rect x="400" y="352" width="556" height="248" fill="#1A1A1A" rx="4"/>
+  <text x="418" y="378" fill="#9C7A4D" font-size="13" letter-spacing="2" font-weight="600">SCÉNARIOS (gradation DALI)</text>
+  <line x1="418" y1="386" x2="938" y2="386" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="10" fill="#EDE9E3">
+    <text x="418" y="410" font-weight="600" fill="#ffd98a">1 · ACCUEIL (jour)</text>
+    <text x="430" y="426" fill="#A9A399" font-size="9">Général 100% · accents 50% · logo allumé — espace lumineux &amp; ouvert</text>
+    <text x="418" y="452" font-weight="600" fill="#ffd98a">2 · PRESCRIPTION</text>
+    <text x="430" y="468" fill="#A9A399" font-size="9">Table 500 lx · accents échantillons 100% · général 60% — comparaison fidèle</text>
+    <text x="418" y="494" font-weight="600" fill="#ffd98a">3 · ÉVÉNEMENT (soir)</text>
+    <text x="430" y="510" fill="#A9A399" font-size="9">Général tamisé 25% · accents + wall-grazing 100% · halo logo — atmosphère dramatique</text>
+    <text x="418" y="536" font-weight="600" fill="#ffd98a">4 · VITRINE (nuit)</text>
+    <text x="430" y="552" fill="#A9A399" font-size="9">Mur signature + 1 ambiance vitrine allumés — visibilité façade hors ouverture</text>
+  </g>
+  <text x="418" y="582" fill="#EDE9E3" font-size="9">▸ Pilotage centralisé, 4 ambiances mémorisées · rails alimentés permettant l'ajout de spots</text>
+  <text x="418" y="596" fill="#A9A399" font-size="8.5">sans intervention électrique — évolutif comme les présentoirs.</text>
+
+  <text x="28" y="636" fill="#999" font-size="9">DARTANK · Maison Drapée — Concept d'éclairage — itération 2</text>
+</svg>

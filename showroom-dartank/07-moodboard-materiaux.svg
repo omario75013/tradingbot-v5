@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="mAnthr" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#222"/><stop offset="1" stop-color="#101010"/></linearGradient>
+    <linearGradient id="mBronze" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#caa46a"/><stop offset="0.5" stop-color="#9C7A4D"/><stop offset="1" stop-color="#6f5634"/></linearGradient>
+    <linearGradient id="mStone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e7e1d6"/><stop offset="1" stop-color="#c9c1b2"/></linearGradient>
+    <pattern id="mWood" width="9" height="14" patternUnits="userSpaceOnUse"><rect width="9" height="14" fill="#8a6a45"/><line x1="0" y1="0" x2="0" y2="14" stroke="#6f5436" stroke-width="1"/><line x1="4" y1="0" x2="4" y2="14" stroke="#7a5c3b" stroke-width="0.5"/></pattern>
+    <pattern id="mMosaic" width="13" height="13" patternUnits="userSpaceOnUse"><rect width="13" height="13" fill="#5f574a"/><rect x="1" y="1" width="11" height="11" fill="#8a7d62"/><rect x="1" y="1" width="5" height="5" fill="#9C7A4D"/></pattern>
+    <pattern id="mPaper" width="30" height="30" patternUnits="userSpaceOnUse"><rect width="30" height="30" fill="#2f2d28"/><path d="M15,4 q9,11 0,22 q-9,-11 0,-22" fill="none" stroke="#9C7A4D" stroke-width="1" opacity="0.7"/><circle cx="15" cy="15" r="1.5" fill="#9C7A4D" opacity="0.6"/></pattern>
+    <linearGradient id="mVelvet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4a44"/><stop offset="1" stop-color="#26332f"/></linearGradient>
+    <linearGradient id="mGlass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cdd8d6"/><stop offset="0.5" stop-color="#aebcbb"/><stop offset="1" stop-color="#dfe6e4"/></linearGradient>
+    <filter id="ms" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.25"/></filter>
+  </defs>
+
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">MATÉRIAUX &amp; FINITIONS — MOOD BOARD</text>
+  <text x="952" y="32" fill="#EDE9E3" font-size="13" text-anchor="end">PALETTE PREMIUM · LIGNES ÉPURÉES</text>
+  <text x="952" y="52" fill="#9C7A4D" font-size="11" text-anchor="end">matériaux nobles · accent bronze/laiton</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <!-- swatch tiles: 4 cols x 2 rows -->
+  <!-- row 1 -->
+  <g filter="url(#ms)">
+    <rect x="28" y="96" width="218" height="170" fill="url(#mAnthr)"/>
+    <rect x="262" y="96" width="218" height="170" fill="url(#mBronze)"/>
+    <rect x="496" y="96" width="218" height="170" fill="url(#mStone)"/>
+    <rect x="730" y="96" width="222" height="170" fill="url(#mWood)"/>
+  </g>
+  <!-- row 2 -->
+  <g filter="url(#ms)">
+    <rect x="28" y="300" width="218" height="170" fill="url(#mMosaic)"/>
+    <rect x="262" y="300" width="218" height="170" fill="url(#mPaper)"/>
+    <rect x="496" y="300" width="218" height="170" fill="url(#mVelvet)"/>
+    <rect x="730" y="300" width="222" height="170" fill="url(#mGlass)"/>
+  </g>
+
+  <!-- captions -->
+  <g font-size="11" fill="#1A1A1A">
+    <text x="28" y="284" font-weight="600">Anthracite profond</text><text x="246" y="284" text-anchor="end" fill="#9C7A4D">#1A1A1A</text>
+    <text x="262" y="284" font-weight="600">Bronze / laiton brossé</text><text x="480" y="284" text-anchor="end" fill="#9C7A4D">#9C7A4D</text>
+    <text x="496" y="284" font-weight="600">Pierre claire</text><text x="714" y="284" text-anchor="end" fill="#9C7A4D">#EAE5DD</text>
+    <text x="730" y="284" font-weight="600">Chêne fumé</text><text x="952" y="284" text-anchor="end" fill="#9C7A4D">sol / mobilier</text>
+    <text x="28" y="488" font-weight="600">Mosaïque pierre &amp; or</text><text x="246" y="488" text-anchor="end" fill="#9C7A4D">accent</text>
+    <text x="262" y="488" font-weight="600">Papier peint Maison Drapée</text>
+    <text x="496" y="488" font-weight="600">Velours vert profond</text><text x="714" y="488" text-anchor="end" fill="#9C7A4D">#2E3A35</text>
+    <text x="730" y="488" font-weight="600">Verre &amp; miroir fumé</text>
+  </g>
+  <!-- sub captions (finitions / usage) -->
+  <g font-size="8.5" fill="#777">
+    <text x="28" y="297">Microciment / peinture mate — murs, mobilier, signature</text>
+    <text x="262" y="297">Détails, lettrage, mains courantes, piétements, rails</text>
+    <text x="496" y="297">Sol showroom, tablettes — respiration claire</text>
+    <text x="730" y="297">Assises, plateau de table, plinthes — chaleur</text>
+    <text x="28" y="501">Touches ponctuelles, soubassements d'ambiance</text>
+    <text x="262" y="501">Ambiance séjour — lés tendus, textile mural</text>
+    <text x="496" y="501">Assise d'appoint / rappel coloré chic</text>
+    <text x="730" y="501">Cloisons, vitrine, jeux de reflets &amp; profondeur</text>
+  </g>
+
+  <!-- palette strip + associations -->
+  <rect x="28" y="516" width="572" height="120" fill="#1A1A1A" rx="4"/>
+  <text x="44" y="540" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">PALETTE</text>
+  <g>
+    <rect x="44" y="552" width="74" height="40" fill="#1A1A1A" stroke="#444"/><text x="44" y="606" fill="#EDE9E3" font-size="8.5">Anthracite</text><text x="44" y="617" fill="#A9A399" font-size="8">#1A1A1A</text>
+    <rect x="126" y="552" width="74" height="40" fill="#9C7A4D"/><text x="126" y="606" fill="#EDE9E3" font-size="8.5">Bronze</text><text x="126" y="617" fill="#A9A399" font-size="8">#9C7A4D</text>
+    <rect x="208" y="552" width="74" height="40" fill="#EAE5DD"/><text x="208" y="606" fill="#EDE9E3" font-size="8.5">Pierre</text><text x="208" y="617" fill="#A9A399" font-size="8">#EAE5DD</text>
+    <rect x="290" y="552" width="74" height="40" fill="#5A5650"/><text x="290" y="606" fill="#EDE9E3" font-size="8.5">Taupe</text><text x="290" y="617" fill="#A9A399" font-size="8">#5A5650</text>
+    <rect x="372" y="552" width="74" height="40" fill="#2E3A35"/><text x="372" y="606" fill="#EDE9E3" font-size="8.5">Vert prof.</text><text x="372" y="617" fill="#A9A399" font-size="8">#2E3A35</text>
+    <rect x="454" y="552" width="74" height="40" fill="#8a6a45"/><text x="454" y="606" fill="#EDE9E3" font-size="8.5">Chêne</text><text x="454" y="617" fill="#A9A399" font-size="8">#8A6A45</text>
+  </g>
+
+  <!-- principes d'association -->
+  <rect x="612" y="516" width="340" height="120" fill="#1A1A1A" rx="4"/>
+  <text x="628" y="540" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">PRINCIPES D'ASSOCIATION</text>
+  <line x1="628" y1="548" x2="936" y2="548" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="9" fill="#EDE9E3">
+    <text x="628" y="564">▸ 80% neutres (anthracite + pierre), 15% bois,</text>
+    <text x="640" y="577" fill="#A9A399" font-size="8.5">5% bronze en touches — la matière exposée prime.</text>
+    <text x="628" y="595">▸ Mat contre brillant : fonds mats, accents</text>
+    <text x="640" y="608" fill="#A9A399" font-size="8.5">métalliques brossés &amp; reflets de verre.</text>
+    <text x="628" y="626">▸ Finitions tactiles — un showroom où l'on touche.</text>
+  </g>
+
+  <text x="28" y="652" fill="#999" font-size="9">DARTANK · Maison Drapée — Mood board matériaux &amp; finitions — itération 2</text>
+</svg>

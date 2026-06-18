@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="pfloor" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#d8d0c2"/><stop offset="1" stop-color="#bdb4a4"/>
+    </linearGradient>
+    <linearGradient id="pceil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e0d0b"/><stop offset="1" stop-color="#1b1916"/>
+    </linearGradient>
+    <radialGradient id="warm" cx="0.5" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#ffe9c0" stop-opacity="0.55"/><stop offset="1" stop-color="#ffe9c0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warm2" cx="0.5" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#ffeccb" stop-opacity="0.4"/><stop offset="1" stop-color="#ffeccb" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="ppaper" width="22" height="22" patternUnits="userSpaceOnUse">
+      <rect width="22" height="22" fill="#3a3833"/>
+      <path d="M11,3 q6,8 0,16 q-6,-8 0,-16" fill="none" stroke="#9C7A4D" stroke-width="0.9" opacity="0.6"/>
+    </pattern>
+    <pattern id="pmosaic" width="9" height="9" patternUnits="userSpaceOnUse">
+      <rect width="9" height="9" fill="#5f574a"/><rect x="0.7" y="0.7" width="7.6" height="7.6" fill="#7d6f56"/>
+    </pattern>
+  </defs>
+
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">SHOWROOM — VUE PERSPECTIVE D'AMBIANCE</text>
+  <text x="952" y="32" fill="#EDE9E3" font-size="13" text-anchor="end">DEPUIS L'ENTRÉE VERS L'ESPACE PRESCRIPTION</text>
+  <text x="952" y="52" fill="#9C7A4D" font-size="11" text-anchor="end">perspective 1 point de fuite</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <!-- ===== room shell ===== -->
+  <!-- ceiling -->
+  <polygon points="60,86 920,86 600,250 380,250" fill="url(#pceil)"/>
+  <!-- floor -->
+  <clipPath id="floorClip"><polygon points="60,600 920,600 600,410 380,410"/></clipPath>
+  <polygon points="60,600 920,600 600,410 380,410" fill="url(#pfloor)"/>
+  <!-- floor seams to VP -->
+  <g clip-path="url(#floorClip)" stroke="#a89e8d" stroke-width="0.8" opacity="0.5">
+    <line x1="160" y1="600" x2="490" y2="330"/><line x1="320" y1="600" x2="490" y2="330"/>
+    <line x1="660" y1="600" x2="490" y2="330"/><line x1="820" y1="600" x2="490" y2="330"/>
+    <line x1="120" y1="520" x2="860" y2="520"/><line x1="250" y1="455" x2="730" y2="455"/>
+  </g>
+
+  <!-- left wall (matériauthèque) -->
+  <polygon points="60,86 60,600 380,410 380,250" fill="#1f1d1a"/>
+  <!-- left valance band -->
+  <polygon points="60,86 380,250 380,264 60,150" fill="#141312"/>
+  <line x1="60" y1="150" x2="380" y2="264" stroke="#9C7A4D" stroke-width="2"/>
+  <text x="120" y="138" fill="#9C7A4D" font-size="9" letter-spacing="3" transform="rotate(13 120 138)">DARTANK · MATÉRIAUTHÈQUE</text>
+  <!-- left display bays -->
+  <polygon points="60,156 130.4,179.8 130.4,429.7 60,448" fill="#8a6a45"/>
+  <polygon points="130.4,179.8 194.4,201.4 194.4,413.1 130.4,429.7" fill="#8f8a82"/>
+  <polygon points="194.4,201.4 252,220.8 252,398.2 194.4,413.1" fill="url(#pmosaic)"/>
+  <polygon points="252,220.8 303.2,238.1 303.2,384.9 252,398.2" fill="#b9a98a"/>
+  <polygon points="303.2,238.1 341.6,251 341.6,375 303.2,384.9" fill="#6b6155"/>
+  <polygon points="341.6,251 380,264 380,365 341.6,375" fill="#5f574a"/>
+  <!-- left mullions -->
+  <g stroke="#9C7A4D" stroke-width="1.6">
+    <line x1="130.4" y1="179.8" x2="130.4" y2="429.7"/><line x1="194.4" y1="201.4" x2="194.4" y2="413.1"/>
+    <line x1="252" y1="220.8" x2="252" y2="398.2"/><line x1="303.2" y1="238.1" x2="303.2" y2="384.9"/><line x1="341.6" y1="251" x2="341.6" y2="375"/>
+  </g>
+  <!-- left tablette + storage -->
+  <line x1="60" y1="448" x2="380" y2="365" stroke="#9C7A4D" stroke-width="3"/>
+  <polygon points="60,448 380,365 380,410 60,600" fill="#232220"/>
+  <!-- left wall glow -->
+  <polygon points="60,156 200,200 200,420 60,460" fill="url(#warm)" opacity="0.8"/>
+
+  <!-- right wall (ambiances) -->
+  <polygon points="920,86 920,600 600,410 600,250" fill="#1f1d1a"/>
+  <polygon points="920,86 600,250 600,264 920,150" fill="#141312"/>
+  <line x1="920" y1="150" x2="600" y2="264" stroke="#9C7A4D" stroke-width="2"/>
+  <!-- niche A (séjour: papier peint) -->
+  <polygon points="894.4,164.6 792,199.2 792,414.8 894.4,441.4" fill="url(#ppaper)"/>
+  <polygon points="894.4,164.6 792,199.2 792,414.8 894.4,441.4" fill="none" stroke="#9C7A4D" stroke-width="3"/>
+  <circle cx="845" cy="290" r="26" fill="#2b2926" stroke="#9C7A4D" stroke-width="2"/>
+  <!-- niche B (façade: pilastre + cadre) -->
+  <polygon points="760,210 670.4,240.2 670.4,383.3 760,406.5" fill="#bcb5a7"/>
+  <polygon points="760,210 670.4,240.2 670.4,383.3 760,406.5" fill="none" stroke="#9C7A4D" stroke-width="3"/>
+  <line x1="690" y1="246" x2="690" y2="378" stroke="#e3ddd0" stroke-width="6"/>
+  <line x1="745" y1="218" x2="745" y2="402" stroke="#e3ddd0" stroke-width="6"/>
+  <rect x="703" y="270" width="30" height="80" fill="none" stroke="#e3ddd0" stroke-width="3"/>
+  <!-- right wall glow -->
+  <polygon points="920,156 800,196 800,430 920,470" fill="url(#warm)" opacity="0.6"/>
+
+  <!-- back wall (prescription) -->
+  <polygon points="380,250 600,250 600,410 380,410" fill="#1A1A1A"/>
+  <!-- screen -->
+  <rect x="428" y="284" width="124" height="74" rx="2" fill="#0d0d0d" stroke="#9C7A4D" stroke-width="2.5"/>
+  <text x="490" y="326" fill="#9C7A4D" font-size="11" letter-spacing="4" text-anchor="middle" opacity="0.85">DARTANK</text>
+  <text x="490" y="340" fill="#6b6155" font-size="6" letter-spacing="2" text-anchor="middle">CATALOGUE DIGITAL</text>
+  <!-- counter hint below -->
+  <polygon points="392,362 588,362 600,410 380,410" fill="#232220"/>
+  <line x1="392" y1="362" x2="588" y2="362" stroke="#9C7A4D" stroke-width="1.5"/>
+
+  <!-- ===== ceiling lighting rails + spots ===== -->
+  <g stroke="#9C7A4D" stroke-width="2">
+    <line x1="240" y1="118" x2="448" y2="252"/><line x1="740" y1="118" x2="552" y2="252"/>
+  </g>
+  <g fill="#1A1A1A" stroke="#9C7A4D" stroke-width="1">
+    <circle cx="300" cy="156" r="4"/><circle cx="360" cy="195" r="3.5"/><circle cx="410" cy="226" r="3"/>
+    <circle cx="700" cy="156" r="4"/><circle cx="640" cy="195" r="3.5"/><circle cx="590" cy="226" r="3"/>
+  </g>
+  <!-- spot glows -->
+  <polygon points="300,158 250,360 360,360" fill="url(#warm2)"/>
+  <polygon points="700,158 640,360 760,360" fill="url(#warm2)"/>
+
+  <!-- ===== prescription table + chairs ===== -->
+  <ellipse cx="490" cy="475" rx="92" ry="30" fill="#000" opacity="0.18"/>
+  <polygon points="446,446 534,446 560,492 420,492" fill="#2b2926" stroke="#9C7A4D" stroke-width="1.5"/>
+  <g fill="#1A1A1A">
+    <rect x="452" y="430" width="28" height="14" rx="3"/><rect x="500" y="430" width="28" height="14" rx="3"/>
+    <rect x="404" y="492" width="34" height="18" rx="3"/><rect x="542" y="492" width="34" height="18" rx="3"/>
+  </g>
+  <!-- table glow -->
+  <ellipse cx="490" cy="455" rx="70" ry="40" fill="url(#warm2)" opacity="0.7"/>
+
+  <!-- caption strip -->
+  <rect x="0" y="610" width="980" height="50" fill="#1A1A1A"/>
+  <g fill="#EDE9E3" font-size="10">
+    <text x="28" y="630"><tspan fill="#9C7A4D" font-weight="600">Gauche</tspan> — Matériauthèque : panneaux modulables &amp; tablette de consultation</text>
+    <text x="28" y="648"><tspan fill="#9C7A4D" font-weight="600">Droite</tspan> — Ambiances scénarisées (papier peint Maison Drapée, moulures de façade)</text>
+    <text x="520" y="630"><tspan fill="#9C7A4D" font-weight="600">Fond</tspan> — Espace prescription : table 4 pers. + écran catalogue digital</text>
+    <text x="520" y="648"><tspan fill="#9C7A4D" font-weight="600">Plafond</tspan> — Rails de spots orientables, accentuation chaude sur les échantillons</text>
+  </g>
+  <text x="952" y="606" fill="#999" font-size="9" text-anchor="end">DARTANK · Maison Drapée — Vue perspective — itération 2</text>
+</svg>

@@ -58,10 +58,10 @@ prescription** → passage au **comptoir** en fond. Boucle naturelle, sans cul-d
 | 1 | Élévation matériauthèque (système d'échantillons) | `02-elevation-materiautheque.svg` | ✅ |
 | 1bis | Détail montant à crémaillère + formats / références | `03-detail-montant-formats.svg` | ✅ |
 | 1ter | Élévation mur est — 3 ambiances scénarisées | `04-mur-est-ambiances.svg` | ✅ |
-| 2 | Concept d'éclairage | à venir | ⏳ |
-| 3 | Planche matériaux & finitions (mood board) | à venir | ⏳ |
-| 4 | Signalétique + logo DARTANK | à venir | ⏳ |
-| 5 | Vue perspective (option) | à venir | ⏳ |
+| 2 | Concept d'éclairage | `06-concept-eclairage.svg` | ✅ |
+| 3 | Planche matériaux & finitions (mood board) | `07-moodboard-materiaux.svg` | ✅ |
+| 4 | Signalétique + logo DARTANK | `08-signaletique-logo.svg` | ✅ |
+| 5 | Vue perspective (option) | `05-perspective.svg` | ✅ |
 
 ### Matériauthèque — proportions retenues (linéaire 6,20 m)
 
