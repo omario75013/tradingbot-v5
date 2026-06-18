@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">BUDGET INDICATIF — PAR POSTE</text>
+  <text x="952" y="32" fill="#EDE9E3" font-size="13" text-anchor="end">ESTIMATION D'ORDRE DE GRANDEUR</text>
+  <text x="952" y="52" fill="#9C7A4D" font-size="11" text-anchor="end">fourchettes € HT · à affiner par devis</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <!-- table -->
+  <g font-size="9.5" fill="#9C7A4D" font-weight="600"><text x="28" y="104">POSTE</text><text x="470" y="104" text-anchor="end">BAS (€ HT)</text><text x="610" y="104" text-anchor="end">HAUT (€ HT)</text><text x="640" y="104">RÉPARTITION</text></g>
+  <line x1="28" y1="110" x2="952" y2="110" stroke="#9C7A4D" stroke-width="1.2"/>
+  <g font-size="9.5" fill="#1A1A1A">
+    <!-- rows: label, low, high, bar (max ~55000 -> width scale) -->
+    <!-- bar x start 640, full width to 940 = 300px for 55000 -> k=300/55000=0.00545 -->
+    <text x="28" y="130">Gros œuvre · cloisons · sols · plafonds</text><text x="470" y="130" text-anchor="end">28 000</text><text x="610" y="130" text-anchor="end">42 000</text><rect x="640" y="123" width="229" height="9" fill="#5a5650"/>
+    <text x="28" y="152">Agencement menuiserie (comptoir, accueil, matériauthèque)</text><text x="470" y="152" text-anchor="end">35 000</text><text x="610" y="152" text-anchor="end">55 000</text><rect x="640" y="145" width="300" height="9" fill="#9C7A4D"/>
+    <text x="28" y="174">Podiums modulaires (6) + kits par univers</text><text x="470" y="174" text-anchor="end">18 000</text><text x="610" y="174" text-anchor="end">28 000</text><rect x="640" y="167" width="153" height="9" fill="#9C7A4D"/>
+    <text x="28" y="196">Room sets (3) — structures + décors</text><text x="470" y="196" text-anchor="end">12 000</text><text x="610" y="196" text-anchor="end">20 000</text><rect x="640" y="189" width="109" height="9" fill="#9C7A4D"/>
+    <text x="28" y="218">Éclairage scénographique (rails, spots, LED, pilotage DALI)</text><text x="470" y="218" text-anchor="end">22 000</text><text x="610" y="218" text-anchor="end">34 000</text><rect x="640" y="211" width="185" height="9" fill="#9C7A4D"/>
+    <text x="28" y="240">Vitrine · enseigne · signalétique (logo, lettres laiton, plaques)</text><text x="470" y="240" text-anchor="end">16 000</text><text x="610" y="240" text-anchor="end">26 000</text><rect x="640" y="233" width="142" height="9" fill="#9C7A4D"/>
+    <text x="28" y="262">Mobilier (table prescription, café/lounge, sièges)</text><text x="470" y="262" text-anchor="end">9 000</text><text x="610" y="262" text-anchor="end">15 000</text><rect x="640" y="255" width="82" height="9" fill="#5a5650"/>
+    <text x="28" y="284">Digital (écran catalogue, écran projet, écran vitrine)</text><text x="470" y="284" text-anchor="end">6 000</text><text x="610" y="284" text-anchor="end">11 000</text><rect x="640" y="277" width="60" height="9" fill="#5a5650"/>
+    <text x="28" y="306">Électricité · CVC · réseaux · sécurité</text><text x="470" y="306" text-anchor="end">14 000</text><text x="610" y="306" text-anchor="end">22 000</text><rect x="640" y="299" width="120" height="9" fill="#5a5650"/>
+    <text x="28" y="328">Études · honoraires · divers &amp; aléas (~10%)</text><text x="470" y="328" text-anchor="end">18 000</text><text x="610" y="328" text-anchor="end">28 000</text><rect x="640" y="321" width="153" height="9" fill="#5a5650"/>
+  </g>
+  <line x1="28" y1="340" x2="952" y2="340" stroke="#9C7A4D" stroke-width="1.2"/>
+  <text x="28" y="362" fill="#1A1A1A" font-size="13" font-weight="700">TOTAL ESTIMÉ</text>
+  <text x="470" y="362" text-anchor="end" fill="#9C7A4D" font-size="13" font-weight="700">178 000</text>
+  <text x="610" y="362" text-anchor="end" fill="#9C7A4D" font-size="13" font-weight="700">281 000</text>
+  <text x="640" y="362" fill="#777" font-size="9">soit ≈ 890 – 1 405 € HT / m²</text>
+
+  <!-- phasing -->
+  <rect x="28" y="384" width="600" height="206" fill="#1A1A1A" rx="4"/>
+  <text x="46" y="408" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">PHASAGE POSSIBLE</text>
+  <line x1="46" y1="416" x2="610" y2="416" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="9.5" fill="#EDE9E3">
+    <text x="46" y="436" font-weight="600" fill="#ffd98a">LOT 1 — Coque &amp; image (ouverture)</text>
+    <text x="58" y="450" fill="#A9A399" font-size="8.5">Gros œuvre, sols, éclairage de base, façade/enseigne, accueil, comptoir</text>
+    <text x="46" y="472" font-weight="600" fill="#ffd98a">LOT 2 — Merchandising</text>
+    <text x="58" y="486" fill="#A9A399" font-size="8.5">Podiums + kits, matériauthèque, écrans catalogue, mise en lumière scéno</text>
+    <text x="46" y="508" font-weight="600" fill="#ffd98a">LOT 3 — Expérience &amp; pro</text>
+    <text x="58" y="522" fill="#A9A399" font-size="8.5">Room sets complets, prescription, café/lounge, signalétique fine</text>
+    <text x="46" y="548" fill="#EDE9E3">▸ Le concept modulaire permet d'ouvrir avec le LOT 1</text>
+    <text x="58" y="562" fill="#A9A399" font-size="8.5">puis d'enrichir podiums &amp; room sets progressivement (CAPEX étalé).</text>
+    <text x="46" y="580" fill="#9C7A4D" font-size="9" font-weight="600">Renouvellement annuel (kits/décors) ≈ 5–8 000 € HT.</text>
+  </g>
+
+  <!-- hypotheses -->
+  <rect x="644" y="384" width="312" height="206" fill="#1A1A1A" rx="4"/>
+  <text x="662" y="408" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">HYPOTHÈSES &amp; RÉSERVES</text>
+  <line x1="662" y1="416" x2="938" y2="416" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="8.8" fill="#A9A399">
+    <text x="662" y="434">▸ Ordre de grandeur, hors foncier &amp; loyer.</text>
+    <text x="662" y="450">▸ Local supposé livré « brut amélioré ».</text>
+    <text x="662" y="466">▸ Prix France, gamme premium, 2026.</text>
+    <text x="662" y="482">▸ Hors stock marchandise &amp; échantillons.</text>
+    <text x="662" y="498">▸ Hors TVA, assurances, frais financiers.</text>
+    <text x="662" y="514">▸ À affiner par consultation d'entreprises.</text>
+  </g>
+  <text x="662" y="540" fill="#EDE9E3" font-size="9" font-weight="600">Leviers d'économie :</text>
+  <g font-size="8.5" fill="#A9A399">
+    <text x="662" y="556">socle podium standardisé · rails évolutifs ·</text>
+    <text x="662" y="570">décors room sets en rotation · digital ciblé.</text>
+  </g>
+
+  <text x="28" y="624" fill="#9C7A4D" font-size="9" font-weight="600">Estimation indicative destinée à cadrer le projet — ne vaut pas devis.</text>
+  <text x="28" y="648" fill="#999" font-size="9">DARTANK · Maison Drapée — Magasin 200 m² — Budget indicatif — itération 2 (détail)</text>
+</svg>

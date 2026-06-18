@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">NOMENCLATURE DES FINITIONS — PAR ZONE</text>
+  <text x="952" y="32" fill="#EDE9E3" font-size="13" text-anchor="end">SOLS · MURS · ÉCLAIRAGE · AGENCEMENT</text>
+  <text x="952" y="52" fill="#9C7A4D" font-size="11" text-anchor="end">cahier de finitions indicatif</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <!-- header row -->
+  <g font-size="9.5" fill="#9C7A4D" font-weight="600">
+    <text x="28" y="104">ZONE</text>
+    <text x="190" y="104">SOL</text>
+    <text x="370" y="104">MURS / FONDS</text>
+    <text x="580" y="104">ÉCLAIRAGE</text>
+    <text x="760" y="104">MOBILIER / AGENCEMENT</text>
+  </g>
+  <line x1="28" y1="110" x2="952" y2="110" stroke="#9C7A4D" stroke-width="1.2"/>
+
+  <g font-size="9" fill="#1A1A1A">
+    <!-- 1 Façade/vitrine -->
+    <text x="28" y="130" font-weight="600" fill="#9C7A4D">1 · Façade / vitrine</text>
+    <text x="190" y="130">grand format pierre clr</text><text x="370" y="130">châssis anthracite, verre extra-clair</text><text x="580" y="130">spots accent 1000 lx + halo enseigne</text><text x="760" y="130">podium phare noir laqué</text>
+    <line x1="28" y1="140" x2="952" y2="140" stroke="#e2ddd2"/>
+    <!-- 2 Accueil/signature -->
+    <text x="28" y="158" font-weight="600" fill="#9C7A4D">2 · Accueil + signature</text>
+    <text x="190" y="158">pierre claire mate</text><text x="370" y="158">microciment anthracite + logo bronze</text><text x="580" y="158">wash mural + suspension accueil</text><text x="760" y="158">banque d'accueil laiton/anthracite</text>
+    <line x1="28" y1="168" x2="952" y2="168" stroke="#e2ddd2"/>
+    <!-- 3 Showroom podiums -->
+    <text x="28" y="186" font-weight="600" fill="#9C7A4D">3 · Showroom podiums</text>
+    <text x="190" y="186">pierre claire / microciment</text><text x="370" y="186">anthracite mat (fond podiums)</text><text x="580" y="186">spots serrés 700–900 lx / podium</text><text x="760" y="186">podiums modulaires MDF laqué</text>
+    <line x1="28" y1="196" x2="952" y2="196" stroke="#e2ddd2"/>
+    <!-- 4 Room sets -->
+    <text x="28" y="214" font-weight="600" fill="#9C7A4D">4 · Room sets (×3)</text>
+    <text x="190" y="214">parquet / mosaïque selon set</text><text x="370" y="214">papier peint, moulures, pierre montés</text><text x="580" y="214">lèche-mur 500–700 lx</text><text x="760" y="214">décors interchangeables, cadres bronze</text>
+    <line x1="28" y1="224" x2="952" y2="224" stroke="#e2ddd2"/>
+    <!-- 5 Matériauthèque -->
+    <text x="28" y="242" font-weight="600" fill="#9C7A4D">5 · Matériauthèque</text>
+    <text x="190" y="242">pierre claire</text><text x="370" y="242">panneaux modulables / crémaillère bronze</text><text x="580" y="242">lèche-mur + spots + écran rétroécl.</text><text x="760" y="242">tablette 0.90 m, écran catalogue</text>
+    <line x1="28" y1="252" x2="952" y2="252" stroke="#e2ddd2"/>
+    <!-- 6 Prescription -->
+    <text x="28" y="270" font-weight="600" fill="#9C7A4D">6 · Prescription</text>
+    <text x="190" y="270">parquet chêne fumé</text><text x="370" y="270">anthracite + velours vert (acoustique)</text><text x="580" y="270">suspension linéaire 500 lx, 3000K</text><text x="760" y="270">grande table, écran projet, nuanciers</text>
+    <line x1="28" y1="280" x2="952" y2="280" stroke="#e2ddd2"/>
+    <!-- 7 Comptoir -->
+    <text x="28" y="298" font-weight="600" fill="#9C7A4D">7 · Comptoir + caisse</text>
+    <text x="190" y="298">pierre claire</text><text x="370" y="298">parement anthracite + logo bronze</text><text x="580" y="298">suspension + accent caisse</text><text x="760" y="298">comptoir laiton brossé, back-counter</text>
+    <line x1="28" y1="308" x2="952" y2="308" stroke="#e2ddd2"/>
+    <!-- 8 Réserve -->
+    <text x="28" y="326" font-weight="600" fill="#9C7A4D">8 · Réserve / stock</text>
+    <text x="190" y="326">résine / béton ciré</text><text x="370" y="326">peinture lessivable claire</text><text x="580" y="326">réglettes LED fonctionnelles 300 lx</text><text x="760" y="326">rayonnages métal, casiers gammes rapides</text>
+    <line x1="28" y1="336" x2="952" y2="336" stroke="#e2ddd2"/>
+    <!-- 9 Back-office/café -->
+    <text x="28" y="354" font-weight="600" fill="#9C7A4D">9 · Back-office + café</text>
+    <text x="190" y="354">chêne fumé / pierre</text><text x="370" y="354">anthracite + touche velours vert</text><text x="580" y="354">général doux 200 lx + liseuses</text><text x="760" y="354">bureau, lounge, point café laiton</text>
+    <line x1="28" y1="364" x2="952" y2="364" stroke="#9C7A4D" stroke-width="1"/>
+  </g>
+
+  <!-- finishes palette legend -->
+  <rect x="28" y="380" width="600" height="210" fill="#1A1A1A" rx="4"/>
+  <text x="46" y="404" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">RÉFÉRENCES DE FINITION</text>
+  <line x1="46" y1="412" x2="610" y2="412" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="9" fill="#EDE9E3">
+    <rect x="46" y="424" width="22" height="22" fill="#1A1A1A" stroke="#444"/><text x="76" y="439">Microciment anthracite mat — murs signature, fonds podiums</text>
+    <rect x="46" y="452" width="22" height="22" fill="#9C7A4D"/><text x="76" y="467">Laiton / bronze brossé — logo, comptoir, rails, détails</text>
+    <rect x="46" y="480" width="22" height="22" fill="#EAE5DD"/><text x="76" y="495">Pierre claire grand format — sol showroom, circulation</text>
+    <rect x="46" y="508" width="22" height="22" fill="#8a6a45"/><text x="76" y="523">Chêne fumé — parquet prescription, mobilier, plinthes</text>
+    <rect x="46" y="536" width="22" height="22" fill="#2E3A35"/><text x="76" y="551">Velours vert profond — assises, panneaux acoustiques</text>
+    <text x="46" y="578" fill="#A9A399" font-size="8.5">Toutes finitions à valider sur échantillons physiques (mock-up recommandé).</text>
+  </g>
+
+  <!-- general specs -->
+  <rect x="644" y="380" width="312" height="210" fill="#1A1A1A" rx="4"/>
+  <text x="662" y="404" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">PRINCIPES TRANSVERSES</text>
+  <line x1="662" y1="412" x2="938" y2="412" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="9.5" fill="#EDE9E3">
+    <text x="662" y="432">▸ Fonds mats &amp; sombres = la matière exposée</text>
+    <text x="674" y="445" fill="#A9A399" font-size="8.5">prime (zéro reflet parasite)</text>
+    <text x="662" y="464">▸ Bronze = fil rouge de marque (5% des surfaces)</text>
+    <text x="662" y="483">▸ Sol clair continu = respiration &amp; lisibilité</text>
+    <text x="662" y="502">▸ Éclairage 2700–3000K, IRC&gt;90 partout</text>
+    <text x="662" y="521">▸ Acoustique traitée en prescription &amp; café</text>
+    <text x="662" y="540">▸ Tout l'agencement = modulaire &amp; déplaçable</text>
+    <text x="662" y="566" fill="#9C7A4D" font-weight="600" font-size="9">Cohérence avec le showroom 70 m² (même ADN).</text>
+  </g>
+
+  <text x="28" y="636" fill="#999" font-size="9">DARTANK · Maison Drapée — Magasin 200 m² — Nomenclature des finitions — itération 2 (détail)</text>
+</svg>

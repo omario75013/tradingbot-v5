@@ -62,8 +62,13 @@ ponctue l'entrée pour recevoir et faire patienter. Back-of-house regroupé au f
 | 5 | Concept d'éclairage scénographique | `06-concept-eclairage.svg` | ✅ |
 | 6 | Mood board matériaux & finitions | `07-moodboard-materiaux.svg` | ✅ |
 | 7 | Signalétique, vitrine & logo DARTANK | `08-signaletique-vitrine.svg` | ✅ |
+| 8 | Plan coté — dimensions & clearances | `09-plan-cote.svg` | ✅ |
+| 9 | Détail podium modulaire (construction, variantes) | `10-detail-podium.svg` | ✅ |
+| 10 | Nomenclature des finitions par zone | `11-nomenclature-finitions.svg` | ✅ |
+| 11 | Vue perspective 2 (vers la vitrine, jour) | `12-perspective-2.svg` | ✅ |
+| 12 | Budget indicatif par poste | `13-budget-indicatif.svg` | ✅ |
 
-> SVG vectoriels exportés en PNG dans `exports/`.
+> SVG vectoriels exportés en PNG dans `exports/`. Dossier PDF compilé : **15 pages**.
 
 ## Dossier PDF compilé
 
