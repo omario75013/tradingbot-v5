@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="pool" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffd98a" stop-opacity="0.65"/><stop offset="1" stop-color="#ffd98a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">ÉCLAIRAGE SCÉNOGRAPHIQUE — PLAN DE PLAFOND</text>
+  <text x="952" y="32" fill="#EDE9E3" font-size="13" text-anchor="end">MISE EN LUMIÈRE PODIUMS · ROOM SETS · VITRINE</text>
+  <text x="952" y="52" fill="#9C7A4D" font-size="11" text-anchor="end">2700–3000 K · IRC &gt; 90</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <!-- ===== reflected ceiling plan (1m=22px, off 60,100) ===== -->
+  <rect x="52" y="92" width="280" height="390" fill="#1A1A1A"/>
+  <rect x="60" y="100" width="264" height="374" fill="#211f1c"/>
+  <text x="192" y="490" fill="#555" font-size="8" text-anchor="middle">façade ↓ (vitrine / entrée)</text>
+
+  <!-- general downlights (subtle grid) -->
+  <g fill="#3a3833"><circle cx="110" cy="200" r="2.5"/><circle cx="192" cy="200" r="2.5"/><circle cx="274" cy="200" r="2.5"/><circle cx="110" cy="300" r="2.5"/><circle cx="274" cy="300" r="2.5"/><circle cx="110" cy="400" r="2.5"/><circle cx="192" cy="400" r="2.5"/><circle cx="274" cy="400" r="2.5"/></g>
+
+  <!-- matériauthèque track (west) -->
+  <line x1="70" y1="243" x2="70" y2="364" stroke="#9C7A4D" stroke-width="2.5"/>
+  <g><circle cx="76" cy="260" r="14" fill="url(#pool)"/><circle cx="76" cy="300" r="14" fill="url(#pool)"/><circle cx="76" cy="340" r="14" fill="url(#pool)"/></g>
+  <!-- room sets wall-grazing (east) -->
+  <line x1="314" y1="232" x2="314" y2="375" stroke="#ffd98a" stroke-width="3" stroke-dasharray="9 4" opacity="0.85"/>
+  <!-- podium accents -->
+  <g><circle cx="128" cy="276" r="18" fill="url(#pool)"/><circle cx="199" cy="276" r="18" fill="url(#pool)"/><circle cx="128" cy="342" r="18" fill="url(#pool)"/><circle cx="199" cy="342" r="18" fill="url(#pool)"/></g>
+  <g fill="#1A1A1A" stroke="#9C7A4D" stroke-width="1.2"><circle cx="128" cy="276" r="4"/><circle cx="199" cy="276" r="4"/><circle cx="128" cy="342" r="4"/><circle cx="199" cy="342" r="4"/></g>
+  <!-- prescription linear -->
+  <rect x="104" y="222" width="70" height="5" rx="2" fill="#9C7A4D"/>
+  <!-- signature wash + accueil -->
+  <rect x="130" y="436" width="100" height="6" fill="#9C7A4D"/><ellipse cx="180" cy="445" rx="60" ry="14" fill="url(#pool)"/>
+  <!-- vitrine track -->
+  <line x1="148" y1="458" x2="316" y2="458" stroke="#9C7A4D" stroke-width="2.5"/>
+  <g fill="url(#pool)"><circle cx="180" cy="462" r="12"/><circle cx="240" cy="462" r="12"/><circle cx="300" cy="462" r="12"/></g>
+
+  <!-- zone callouts -->
+  <g fill="#ffd98a" font-size="7.5" text-anchor="middle">
+    <text x="163" y="312">podiums · accent 700–900 lx</text>
+    <text x="300" y="230">room sets</text><text x="300" y="240">lèche-mur</text>
+    <text x="78" y="232">matériauthèque</text>
+    <text x="138" y="218">prescription</text>
+    <text x="240" y="478" fill="#ffd98a">vitrine — phare</text>
+  </g>
+  <text x="110" y="430" fill="#888" font-size="7.5" text-anchor="middle">général ≈ 200 lx</text>
+
+  <!-- ===== APPAREILS ===== -->
+  <rect x="356" y="92" width="600" height="232" fill="#1A1A1A" rx="4"/>
+  <text x="374" y="116" fill="#9C7A4D" font-size="13" letter-spacing="2" font-weight="600">APPAREILS &amp; PARAMÈTRES</text>
+  <line x1="374" y1="124" x2="938" y2="124" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="10" fill="#EDE9E3">
+    <circle cx="386" cy="144" r="5" fill="#1A1A1A" stroke="#9C7A4D" stroke-width="1.3"/><text x="402" y="147">Spot accent sur rail — podiums &amp; vitrine, faisceau serré 15–24°</text>
+    <rect x="381" y="165" width="12" height="4" rx="2" fill="#ffd98a"/><text x="402" y="171">Lèche-mur (wall-grazing) — room sets &amp; matériauthèque</text>
+    <circle cx="386" cy="188" r="2.5" fill="#3a3833"/><text x="402" y="191">Downlight général encastré — circulation &amp; confort</text>
+    <rect x="380" y="208" width="14" height="5" rx="2" fill="#9C7A4D"/><text x="402" y="213">Suspension linéaire — table de prescription &amp; accueil</text>
+  </g>
+  <g font-size="9.5" fill="#EDE9E3">
+    <text x="374" y="240">Température</text><text x="650" y="240" text-anchor="end" fill="#9C7A4D">2700–3000 K</text>
+    <text x="374" y="258">Rendu couleurs (matière)</text><text x="650" y="258" text-anchor="end" fill="#9C7A4D">IRC &gt; 90</text>
+    <text x="374" y="276">Général / circulation</text><text x="650" y="276" text-anchor="end" fill="#9C7A4D">200 lx</text>
+    <text x="680" y="240" fill="#EDE9E3">Accent podiums</text><text x="938" y="240" text-anchor="end" fill="#9C7A4D">700–900 lx</text>
+    <text x="680" y="258" fill="#EDE9E3">Room sets</text><text x="938" y="258" text-anchor="end" fill="#9C7A4D">500–700 lx</text>
+    <text x="680" y="276" fill="#EDE9E3">Vitrine (phare)</text><text x="938" y="276" text-anchor="end" fill="#9C7A4D">1000 lx</text>
+  </g>
+  <text x="374" y="302" fill="#A9A399" font-size="8.5">Rails alimentés sur tout le plafond : ajout/déplacement de spots sans travaux —</text>
+  <text x="374" y="314" fill="#A9A399" font-size="8.5">l'éclairage suit le renouvellement des podiums &amp; des room sets.</text>
+
+  <!-- ===== SCÉNARIOS ===== -->
+  <rect x="356" y="336" width="600" height="264" fill="#1A1A1A" rx="4"/>
+  <text x="374" y="360" fill="#9C7A4D" font-size="13" letter-spacing="2" font-weight="600">SCÉNARIOS (gradation DALI)</text>
+  <line x1="374" y1="368" x2="938" y2="368" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="10" fill="#EDE9E3">
+    <text x="374" y="392" font-weight="600" fill="#ffd98a">1 · JOUR COMMERÇANT</text>
+    <text x="386" y="408" fill="#A9A399" font-size="9">Général 100% · accents podiums 80% · vitrine 100% — accueillant &amp; lisible</text>
+    <text x="374" y="434" font-weight="600" fill="#ffd98a">2 · PRESCRIPTION (pros)</text>
+    <text x="386" y="450" fill="#A9A399" font-size="9">Table 500 lx · accents 100% · matériauthèque renforcée — comparaison fidèle</text>
+    <text x="374" y="476" font-weight="600" fill="#ffd98a">3 · SOIRÉE / ÉVÉNEMENT</text>
+    <text x="386" y="492" fill="#A9A399" font-size="9">Général 30% · accents + lèche-mur 100% · signature &amp; vitrine — atmosphère</text>
+    <text x="374" y="518" font-weight="600" fill="#ffd98a">4 · VITRINE NUIT</text>
+    <text x="386" y="534" fill="#A9A399" font-size="9">Enseigne + vitrine produit phare + 1 room set allumés — présence sur rue 24/7</text>
+  </g>
+  <text x="374" y="566" fill="#EDE9E3" font-size="9">▸ Pilotage centralisé, scénarios mémorisés, horloge astronomique pour la vitrine.</text>
+  <text x="374" y="582" fill="#A9A399" font-size="8.5">Mise en lumière = outil de merchandising : on dirige le regard vers le produit phare.</text>
+
+  <text x="28" y="636" fill="#999" font-size="9">DARTANK · Maison Drapée — Magasin 200 m² — Concept d'éclairage scénographique — itération 1</text>
+</svg>

@@ -55,10 +55,20 @@ ponctue l'entrée pour recevoir et faire patienter. Back-of-house regroupé au f
 | # | Livrable | Fichier | Statut |
 |---|---|---|---|
 | 0 | Vue d'ensemble — plan 2D + parcours + palette | `01-plan-amenagement.svg` | ✅ |
-| — | Élévations murs produits & matériauthèque | à venir | ⏳ |
-| — | Concept d'éclairage scénographique | à venir | ⏳ |
-| — | Mood board matériaux & finitions | à venir | ⏳ |
-| — | Signalétique + vitrine (logo DARTANK) | à venir | ⏳ |
-| — | Vue(s) perspective | à venir | ⏳ |
+| 1 | Façade + vitrine (produit phare, vue nuit) | `02-facade-vitrine.svg` | ✅ |
+| 2 | Showroom produits — podiums par univers | `03-showroom-podiums.svg` | ✅ |
+| 3 | Élévations murs (room sets) + matériauthèque + catalogue | `04-murs-ambiances-materiautheque.svg` | ✅ |
+| 4 | Vue perspective | `05-perspective.svg` | ✅ |
+| 5 | Concept d'éclairage scénographique | `06-concept-eclairage.svg` | ✅ |
+| 6 | Mood board matériaux & finitions | `07-moodboard-materiaux.svg` | ✅ |
+| 7 | Signalétique, vitrine & logo DARTANK | `08-signaletique-vitrine.svg` | ✅ |
 
 > SVG vectoriels exportés en PNG dans `exports/`.
+
+## Dossier PDF compilé
+
+| Version | Fichier | Usage |
+|---|---|---|
+| Standard | `DARTANK_Dossier_Magasin.pdf` | écran / partage (10 pages) |
+| A3 print | `DARTANK_Dossier_Magasin_A3_print.pdf` | imprimeur — fonds perdus 3 mm + traits de coupe, couverture pleine page |
+| A4 paysage | `DARTANK_Dossier_Magasin_A4.pdf` | diffusion e-mail |

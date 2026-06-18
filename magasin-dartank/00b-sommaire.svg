@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">DOSSIER D'AMÉNAGEMENT — SOMMAIRE</text>
+  <text x="952" y="44" fill="#9C7A4D" font-size="11" text-anchor="end">Magasin-showroom premium · 200 m²</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+  <g font-size="14" fill="#1A1A1A">
+    <g><text x="60" y="138" fill="#9C7A4D" font-weight="700" font-size="16">01</text><text x="120" y="138" font-weight="600">Plan d'aménagement 2D + parcours guidé</text><text x="920" y="138" text-anchor="end" fill="#777" font-size="11">p. 3</text><text x="120" y="156" fill="#777" font-size="10">9 zones légendées · cotes · circulation · surfaces · palette</text></g>
+    <line x1="60" y1="170" x2="920" y2="170" stroke="#ddd"/>
+    <g><text x="60" y="198" fill="#9C7A4D" font-weight="700" font-size="16">02</text><text x="120" y="198" font-weight="600">Façade + vitrine</text><text x="920" y="198" text-anchor="end" fill="#777" font-size="11">p. 4</text><text x="120" y="216" fill="#777" font-size="10">Enseigne logo · vitrine produit phare · vue nuit</text></g>
+    <line x1="60" y1="230" x2="920" y2="230" stroke="#ddd"/>
+    <g><text x="60" y="258" fill="#9C7A4D" font-weight="700" font-size="16">03</text><text x="120" y="258" font-weight="600">Showroom produits — podiums par univers</text><text x="920" y="258" text-anchor="end" fill="#777" font-size="11">p. 5</text><text x="120" y="276" fill="#777" font-size="10">Sélection curatée · présentoirs modulables · renouvelables</text></g>
+    <line x1="60" y1="290" x2="920" y2="290" stroke="#ddd"/>
+    <g><text x="60" y="318" fill="#9C7A4D" font-weight="700" font-size="16">04</text><text x="120" y="318" font-weight="600">Élévations — room sets + matériauthèque</text><text x="920" y="318" text-anchor="end" fill="#777" font-size="11">p. 6</text><text x="120" y="336" fill="#777" font-size="10">Mur est (3 ambiances) · mur ouest (échantillons + catalogue digital)</text></g>
+    <line x1="60" y1="350" x2="920" y2="350" stroke="#ddd"/>
+    <g><text x="60" y="378" fill="#9C7A4D" font-weight="700" font-size="16">05</text><text x="120" y="378" font-weight="600">Vue perspective</text><text x="920" y="378" text-anchor="end" fill="#777" font-size="11">p. 7</text><text x="120" y="396" fill="#777" font-size="10">Atmosphère depuis l'entrée vers le mur signature</text></g>
+    <line x1="60" y1="410" x2="920" y2="410" stroke="#ddd"/>
+    <g><text x="60" y="438" fill="#9C7A4D" font-weight="700" font-size="16">06</text><text x="120" y="438" font-weight="600">Concept d'éclairage scénographique</text><text x="920" y="438" text-anchor="end" fill="#777" font-size="11">p. 8</text><text x="120" y="456" fill="#777" font-size="10">Plan de plafond · appareils · 2700–3000 K · IRC&gt;90 · 4 scénarios</text></g>
+    <line x1="60" y1="470" x2="920" y2="470" stroke="#ddd"/>
+    <g><text x="60" y="498" fill="#9C7A4D" font-weight="700" font-size="16">07</text><text x="120" y="498" font-weight="600">Mood board matériaux &amp; finitions</text><text x="920" y="498" text-anchor="end" fill="#777" font-size="11">p. 9</text><text x="120" y="516" fill="#777" font-size="10">8 matières nobles · palette · principes d'association</text></g>
+    <line x1="60" y1="530" x2="920" y2="530" stroke="#ddd"/>
+    <g><text x="60" y="558" fill="#9C7A4D" font-weight="700" font-size="16">08</text><text x="120" y="558" font-weight="600">Signalétique, vitrine &amp; logo DARTANK</text><text x="920" y="558" text-anchor="end" fill="#777" font-size="11">p. 10</text><text x="120" y="576" fill="#777" font-size="10">Emblème · enseigne · vitrine · mur signature · endossement Maison Drapée</text></g>
+    <line x1="60" y1="590" x2="920" y2="590" stroke="#ddd"/>
+  </g>
+  <text x="60" y="624" fill="#999" font-size="9">DARTANK · Maison Drapée — Dossier magasin-showroom 200 m² — palette anthracite #1A1A1A / bronze #9C7A4D</text>
+</svg>

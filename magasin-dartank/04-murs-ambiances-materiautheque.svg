@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <pattern id="ep" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="#3a3833"/><path d="M10,2 q6,8 0,16 q-6,-8 0,-16" fill="none" stroke="#9C7A4D" stroke-width="0.8" opacity="0.6"/></pattern>
+    <pattern id="em" width="11" height="11" patternUnits="userSpaceOnUse"><rect width="11" height="11" fill="#5f574a"/><rect x="0.8" y="0.8" width="9.4" height="9.4" fill="#7d6f56"/></pattern>
+    <linearGradient id="es" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfc8ba"/><stop offset="1" stop-color="#aaa295"/></linearGradient>
+    <linearGradient id="eo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1ede5"/><stop offset="1" stop-color="#c2bbab"/></linearGradient>
+    <pattern id="ewd" width="7" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(8)"><rect width="7" height="9" fill="#8a6a45"/><line x1="0" y1="0" x2="0" y2="9" stroke="#6f5436" stroke-width="0.8"/></pattern>
+    <radialGradient id="el" cx="0.5" cy="0" r="1"><stop offset="0" stop-color="#fff0cf" stop-opacity="0.45"/><stop offset="1" stop-color="#fff0cf" stop-opacity="0"/></radialGradient>
+    <filter id="s4" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.4"/></filter>
+  </defs>
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">ÉLÉVATIONS — MURS PRODUITS &amp; MATÉRIAUTHÈQUE</text>
+  <text x="952" y="32" fill="#EDE9E3" font-size="13" text-anchor="end">MUR EST (ROOM SETS) · MUR OUEST (ÉCHANTILLONS)</text>
+  <text x="952" y="52" fill="#9C7A4D" font-size="11" text-anchor="end">éch. ≈ 1:75</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <!-- ===== MUR EST — 3 ROOM SETS ===== -->
+  <text x="28" y="100" fill="#1A1A1A" font-size="11" font-weight="600">MUR EST — 3 AMBIANCES SCÉNARISÉES (ROOM SETS)</text>
+  <rect x="28" y="108" width="924" height="210" fill="#1f1d1a"/>
+  <rect x="28" y="108" width="924" height="200" fill="#1f1d1a"/>
+  <!-- track -->
+  <rect x="40" y="116" width="900" height="3" fill="#9C7A4D"/>
+  <g fill="url(#el)"><polygon points="180,120 90,300 270,300"/><polygon points="490,120 400,300 580,300"/><polygon points="800,120 710,300 890,300"/></g>
+  <line x1="336" y1="118" x2="336" y2="300" stroke="#000" stroke-width="0.6" opacity="0.4" stroke-dasharray="3 3"/>
+  <line x1="644" y1="118" x2="644" y2="300" stroke="#000" stroke-width="0.6" opacity="0.4" stroke-dasharray="3 3"/>
+  <!-- bay1 séjour -->
+  <clipPath id="rb1"><rect x="40" y="124" width="284" height="176"/></clipPath>
+  <g clip-path="url(#rb1)"><rect x="40" y="138" width="284" height="150" fill="url(#ep)"/><rect x="40" y="126" width="284" height="12" fill="url(#eo)"/><polygon points="40,288 324,288 324,300 40,300" fill="url(#ewd)"/><circle cx="180" cy="210" r="30" fill="#2b2926" stroke="#9C7A4D" stroke-width="2.5"/><rect x="120" y="250" width="120" height="10" fill="#1A1A1A"/></g>
+  <rect x="40" y="124" width="284" height="176" fill="none" stroke="#9C7A4D" stroke-width="1.2"/>
+  <!-- bay2 façade -->
+  <clipPath id="rb2"><rect x="348" y="124" width="284" height="176"/></clipPath>
+  <g clip-path="url(#rb2)"><rect x="348" y="124" width="284" height="176" fill="#bcb5a7"/><rect x="348" y="140" width="284" height="18" fill="url(#eo)"/><rect x="372" y="160" width="20" height="128" fill="url(#eo)"/><rect x="588" y="160" width="20" height="128" fill="url(#eo)"/><rect x="448" y="186" width="84" height="96" fill="none" stroke="#e9e3d6" stroke-width="6"/></g>
+  <rect x="348" y="124" width="284" height="176" fill="none" stroke="#9C7A4D" stroke-width="1.2"/>
+  <!-- bay3 minéral -->
+  <clipPath id="rb3"><rect x="656" y="124" width="284" height="176"/></clipPath>
+  <g clip-path="url(#rb3)"><rect x="656" y="124" width="284" height="176" fill="#9a9286"/><rect x="656" y="138" width="284" height="12" fill="url(#eo)"/><rect x="672" y="156" width="124" height="120" fill="url(#es)" stroke="#8a8275"/><rect x="800" y="156" width="124" height="120" fill="url(#es)" stroke="#8a8275"/><rect x="656" y="250" width="284" height="50" fill="url(#em)"/><rect x="656" y="247" width="284" height="3" fill="#9C7A4D"/></g>
+  <rect x="656" y="124" width="284" height="176" fill="none" stroke="#9C7A4D" stroke-width="1.2"/>
+  <!-- bay labels -->
+  <g text-anchor="middle" font-size="8.5"><text x="182" y="314" fill="#555">Room set 1 · Séjour (papier peint + parquet)</text><text x="490" y="314" fill="#555">Room set 2 · Façade (moulures)</text><text x="798" y="314" fill="#555">Room set 3 · Minéral (mosaïque + pierre)</text></g>
+
+  <!-- ===== MUR OUEST — MATÉRIAUTHÈQUE + CATALOGUE ===== -->
+  <text x="28" y="356" fill="#1A1A1A" font-size="11" font-weight="600">MUR OUEST — MATÉRIAUTHÈQUE (RESTE DE LA GAMME) + ÉCRAN CATALOGUE DIGITAL</text>
+  <rect x="28" y="364" width="924" height="216" fill="#1f1d1a"/>
+  <!-- valance + logo -->
+  <rect x="28" y="364" width="924" height="26" fill="#161616"/><rect x="28" y="388" width="924" height="2" fill="#9C7A4D"/>
+  <text x="300" y="382" fill="#9C7A4D" font-size="10" letter-spacing="5" text-anchor="middle">DARTANK · MATÉRIAUTHÈQUE</text>
+  <!-- sample panels (left 2/3) -->
+  <g fill="#9C7A4D" opacity="0.9"><rect x="44" y="400" width="6" height="150"/><rect x="214" y="400" width="6" height="150"/><rect x="384" y="400" width="6" height="150"/><rect x="554" y="400" width="6" height="150"/></g>
+  <g filter="url(#s4)">
+    <rect x="60" y="410" width="140" height="120" fill="url(#ewd)"/>
+    <rect x="230" y="410" width="140" height="120" fill="url(#eo)"/>
+    <rect x="400" y="410" width="140" height="120" fill="url(#em)"/>
+  </g>
+  <g fill="#1A1A1A" font-size="7.5" text-anchor="middle">
+    <rect x="60" y="534" width="140" height="12" fill="#9C7A4D"/><text x="130" y="543">SOLS</text>
+    <rect x="230" y="534" width="140" height="12" fill="#9C7A4D"/><text x="300" y="543">MOULURES</text>
+    <rect x="400" y="534" width="140" height="12" fill="#9C7A4D"/><text x="470" y="543">MOSAÏQUES + PAP. PEINTS</text>
+  </g>
+  <text x="300" y="566" fill="#777" font-size="8" text-anchor="middle">tablette de consultation @ 0.90 m — panneaux modulables interchangeables</text>
+  <!-- catalogue screen (right) -->
+  <rect x="600" y="408" width="320" height="140" rx="3" fill="#0d0d0d" stroke="#9C7A4D" stroke-width="3"/>
+  <text x="760" y="470" fill="#9C7A4D" font-size="16" letter-spacing="5" text-anchor="middle">DARTANK</text>
+  <text x="760" y="490" fill="#6b6155" font-size="9" letter-spacing="2" text-anchor="middle">CATALOGUE DIGITAL — GAMME COMPLÈTE</text>
+  <text x="760" y="566" fill="#777" font-size="8" text-anchor="middle">recherche par univers · fiches techniques · commande sur projet</text>
+
+  <text x="28" y="600" fill="#9C7A4D" font-size="9" font-weight="600">Le mur d'échantillons + l'écran donnent accès à TOUTE la gamme non exposée — sans surcharger le magasin.</text>
+  <text x="28" y="636" fill="#999" font-size="9">DARTANK · Maison Drapée — Magasin 200 m² — Élévations murs &amp; matériauthèque — itération 1</text>
+</svg>

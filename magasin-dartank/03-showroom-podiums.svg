@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="pl" cx="0.5" cy="0" r="1"><stop offset="0" stop-color="#fff0cf" stop-opacity="0.55"/><stop offset="1" stop-color="#fff0cf" stop-opacity="0"/></radialGradient>
+    <pattern id="wd" width="6" height="10" patternUnits="userSpaceOnUse"><rect width="6" height="10" fill="#8a6a45"/><line x1="0" y1="0" x2="0" y2="10" stroke="#6f5436" stroke-width="0.8"/></pattern>
+    <pattern id="mos" width="9" height="9" patternUnits="userSpaceOnUse"><rect width="9" height="9" fill="#5f574a"/><rect x="0.8" y="0.8" width="7.4" height="7.4" fill="#9C7A4D"/></pattern>
+    <pattern id="pap" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="14" height="14" fill="#cdbfa6"/><line x1="0" y1="0" x2="0" y2="14" stroke="#b8a888" stroke-width="0.7"/></pattern>
+    <linearGradient id="mld" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1ede5"/><stop offset="1" stop-color="#c2bbab"/></linearGradient>
+    <filter id="s3" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">SHOWROOM PRODUITS — PODIUMS PAR UNIVERS</text>
+  <text x="952" y="32" fill="#EDE9E3" font-size="13" text-anchor="end">SÉLECTION CURATÉE &amp; RENOUVELABLE</text>
+  <text x="952" y="52" fill="#9C7A4D" font-size="11" text-anchor="end">présentoirs modulables · éch. ≈ 1:50</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <!-- dark stage backdrop -->
+  <rect x="28" y="92" width="924" height="360" fill="#201e1b"/>
+  <!-- ceiling track + spots -->
+  <rect x="40" y="104" width="900" height="4" rx="2" fill="#9C7A4D"/>
+  <g fill="#1A1A1A" stroke="#9C7A4D" stroke-width="1"><circle cx="146" cy="106" r="4"/><circle cx="380" cy="106" r="4"/><circle cx="600" cy="106" r="4"/><circle cx="834" cy="106" r="4"/></g>
+  <g fill="url(#pl)"><polygon points="146,108 70,360 240,360"/><polygon points="380,108 300,360 470,360"/><polygon points="600,108 520,360 690,360"/><polygon points="834,108 754,360 924,360"/></g>
+
+  <!-- floor -->
+  <rect x="28" y="404" width="924" height="48" fill="#2a2825"/>
+  <line x1="28" y1="404" x2="952" y2="404" stroke="#000" stroke-width="1"/>
+
+  <!-- ===== PODIUM 1 : SOLS ===== -->
+  <rect x="70" y="368" width="156" height="40" rx="2" fill="#0e0d0c" filter="url(#s3)"/>
+  <rect x="90" y="300" width="50" height="68" fill="url(#wd)"/>
+  <rect x="150" y="312" width="40" height="56" fill="#8f8a82"/>
+  <polygon points="92,408 204,408 192,430 104,430" fill="url(#wd)" opacity="0.8"/>
+  <text x="148" y="392" fill="#9C7A4D" font-size="9" text-anchor="middle" font-weight="600">SOLS</text>
+
+  <!-- ===== PODIUM 2 : MOULURES ===== -->
+  <rect x="304" y="368" width="156" height="40" rx="2" fill="#0e0d0c" filter="url(#s3)"/>
+  <rect x="330" y="250" width="20" height="118" fill="url(#mld)"/>
+  <rect x="360" y="270" width="20" height="98" fill="url(#mld)"/>
+  <rect x="320" y="250" width="120" height="16" fill="url(#mld)"/>  <!-- corniche -->
+  <rect x="390" y="290" width="46" height="78" fill="url(#mld)"/>
+  <text x="382" y="392" fill="#9C7A4D" font-size="9" text-anchor="middle" font-weight="600">MOULURES / CORNICHES</text>
+
+  <!-- ===== PODIUM 3 : MOSAÏQUES ===== -->
+  <rect x="524" y="368" width="156" height="40" rx="2" fill="#0e0d0c" filter="url(#s3)"/>
+  <g filter="url(#s3)"><rect x="544" y="300" width="50" height="68" fill="url(#mos)"/><rect x="604" y="312" width="44" height="56" fill="#6b6155"/><rect x="544" y="300" width="50" height="68" fill="none" stroke="#9C7A4D" stroke-width="1.5"/></g>
+  <text x="602" y="392" fill="#9C7A4D" font-size="9" text-anchor="middle" font-weight="600">MOSAÏQUES</text>
+
+  <!-- ===== PODIUM 4 : PAPIERS PEINTS ===== -->
+  <rect x="758" y="368" width="156" height="40" rx="2" fill="#0e0d0c" filter="url(#s3)"/>
+  <path d="M778,266 h44 v100 q-22,7 -44,0 z" fill="url(#pap)" filter="url(#s3)"/>
+  <path d="M828,272 h40 v94 q-20,6 -40,0 z" fill="#b9a98a"/>
+  <ellipse cx="892" cy="300" rx="14" ry="26" fill="#9C7A4D" opacity="0.6"/>
+  <text x="836" y="392" fill="#9C7A4D" font-size="9" text-anchor="middle" font-weight="600">PAPIERS PEINTS · M. DRAPÉE</text>
+
+  <!-- ===== LEGEND ===== -->
+  <rect x="28" y="468" width="466" height="160" fill="#1A1A1A" rx="4"/>
+  <text x="46" y="492" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">SYSTÈME DE PRÉSENTATION</text>
+  <line x1="46" y1="500" x2="476" y2="500" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="9.5" fill="#EDE9E3">
+    <text x="46" y="518">▸ Podiums noirs mats sur fond anthracite — produit isolé, mis en lumière</text>
+    <text x="46" y="536">▸ 1 podium = 1 univers ; rotation/renouvellement à chaque collection</text>
+    <text x="46" y="554">▸ Présentoirs modulables : stands inclinés (sols), bras (moulures),</text>
+    <text x="58" y="568" fill="#A9A399" font-size="8.5">cadres (mosaïques), barres + lest (papiers peints)</text>
+    <text x="46" y="586">▸ Échantillon "à toucher" + plaquette bronze (réf. + QR catalogue)</text>
+    <text x="46" y="606" fill="#9C7A4D" font-weight="600">Curaté, pas exhaustif — le reste via la matériauthèque (zone 5).</text>
+  </g>
+
+  <!-- mini plan reminder -->
+  <rect x="510" y="468" width="442" height="160" fill="#1A1A1A" rx="4"/>
+  <text x="528" y="492" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">IMPLANTATION (rappel plan)</text>
+  <line x1="528" y1="500" x2="934" y2="500" stroke="#9C7A4D" stroke-width="1"/>
+  <rect x="560" y="512" width="180" height="104" fill="#232220"/>
+  <g filter="url(#s3)"><rect x="585" y="528" width="48" height="34" rx="2" fill="#2b2926"/><rect x="667" y="528" width="48" height="34" rx="2" fill="#2b2926"/><rect x="585" y="572" width="48" height="34" rx="2" fill="#2b2926"/><rect x="667" y="572" width="48" height="34" rx="2" fill="#2b2926"/></g>
+  <g fill="#9C7A4D" font-size="6.5" text-anchor="middle"><text x="609" y="548">SOLS</text><text x="691" y="548">MOUL.</text><text x="609" y="592">MOSA.</text><text x="691" y="592">P.P.</text></g>
+  <text x="760" y="536" fill="#EDE9E3" font-size="9.5">4 podiums au cœur du magasin,</text>
+  <text x="760" y="552" fill="#EDE9E3" font-size="9.5">circulation périphérique fluide,</text>
+  <text x="760" y="568" fill="#EDE9E3" font-size="9.5">vues plongeantes depuis l'entrée.</text>
+  <text x="760" y="592" fill="#A9A399" font-size="8.5">Espacement ≥ 1.2 m entre podiums</text>
+  <text x="760" y="606" fill="#A9A399" font-size="8.5">(confort &amp; accessibilité PMR).</text>
+
+  <text x="28" y="650" fill="#999" font-size="9">DARTANK · Maison Drapée — Magasin 200 m² — Showroom podiums — itération 1</text>
+</svg>

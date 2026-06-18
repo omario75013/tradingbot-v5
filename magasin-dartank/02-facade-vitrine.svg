@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffdf9e" stop-opacity="0.8"/><stop offset="1" stop-color="#ffdf9e" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#243230" stop-opacity="0.9"/><stop offset="0.5" stop-color="#33433f" stop-opacity="0.85"/><stop offset="1" stop-color="#1c2725" stop-opacity="0.95"/></linearGradient>
+    <linearGradient id="brush" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9a368"/><stop offset="0.5" stop-color="#9C7A4D"/><stop offset="1" stop-color="#7a5e38"/></linearGradient>
+    <radialGradient id="spotpool" cx="0.5" cy="0" r="1"><stop offset="0" stop-color="#fff0cf" stop-opacity="0.6"/><stop offset="1" stop-color="#fff0cf" stop-opacity="0"/></radialGradient>
+    <filter id="emb" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="1" flood-color="#000" flood-opacity="0.5"/></filter>
+  </defs>
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">FAÇADE + VITRINE — ÉLÉVATION</text>
+  <text x="952" y="32" fill="#EDE9E3" font-size="13" text-anchor="end">ENSEIGNE &amp; MISE EN SCÈNE PRODUIT PHARE</text>
+  <text x="952" y="52" fill="#9C7A4D" font-size="11" text-anchor="end">L 12.00 × H 4.00 m · éch. ≈ 1:60</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <!-- ===== DAY ELEVATION (1m=54px, x off 60, floor y=360) ===== -->
+  <!-- structure -->
+  <rect x="60" y="144" width="648" height="216" fill="#1A1A1A"/>
+  <!-- fascia / enseigne -->
+  <rect x="60" y="144" width="648" height="34" fill="#161513"/>
+  <ellipse cx="384" cy="161" rx="200" ry="22" fill="url(#halo)" opacity="0.5"/>
+  <g transform="translate(258,148) scale(0.34)">
+    <path d="M6,72 L6,30 Q6,6 30,6 Q54,6 54,30 L54,72" fill="none" stroke="#caa46a" stroke-width="5"/><rect x="25" y="2" width="10" height="13" fill="#caa46a"/><rect x="2" y="71" width="56" height="3" fill="#caa46a"/>
+  </g>
+  <text x="402" y="171" fill="#f3d79e" font-size="22" letter-spacing="9" text-anchor="middle" font-weight="600" filter="url(#emb)">DARTANK</text>
+  <!-- glazing structure -->
+  <rect x="72" y="186" width="624" height="166" fill="url(#glass)"/>
+  <!-- mullions -->
+  <g stroke="#0d0d0c" stroke-width="4"><line x1="170" y1="186" x2="170" y2="352"/><line x1="300" y1="186" x2="300" y2="352"/><line x1="560" y1="186" x2="560" y2="352"/><line x1="630" y1="186" x2="630" y2="352"/></g>
+  <line x1="72" y1="262" x2="696" y2="262" stroke="#0d0d0c" stroke-width="2" opacity="0.5"/>
+  <!-- entrance door (left) -->
+  <rect x="76" y="200" width="90" height="152" fill="#12191800" stroke="#9C7A4D" stroke-width="1"/>
+  <line x1="121" y1="200" x2="121" y2="352" stroke="#9C7A4D" stroke-width="1.5"/>
+  <circle cx="113" cy="278" r="3" fill="#9C7A4D"/>
+  <text x="121" y="344" fill="#9C7A4D" font-size="8" text-anchor="middle" opacity="0.8">ENTRÉE</text>
+  <!-- VITRINE staged product phare -->
+  <rect x="320" y="296" width="220" height="56" fill="#0e1413"/> <!-- podium -->
+  <polygon points="430,200 400,296 460,296" fill="url(#spotpool)"/>
+  <!-- product phare : grand lé de papier peint déroulé + colonne moulurée + mosaïque -->
+  <rect x="340" y="214" width="40" height="82" fill="url(#brush)" opacity="0.5"/>  <!-- mosaic panel -->
+  <rect x="412" y="206" width="36" height="90" fill="#cdbfa6"/>                      <!-- moulure / colonne -->
+  <g stroke="#9a917f" stroke-width="1"><line x1="418" y1="210" x2="418" y2="292"/><line x1="442" y1="210" x2="442" y2="292"/></g>
+  <path d="M482,210 q14,2 14,14 v72 h-28 v-72 q0,-12 14,-14 z" fill="#9C7A4D" opacity="0.55"/>  <!-- rouleau papier peint -->
+  <text x="430" y="372" fill="#555" font-size="9" text-anchor="middle">vitrine — produit phare mis en scène (renouvelable)</text>
+  <!-- right anthracite pylon with vertical logo -->
+  <rect x="636" y="186" width="60" height="166" fill="#1A1A1A"/>
+  <text transform="translate(666,300) rotate(-90)" fill="#9C7A4D" font-size="10" letter-spacing="5" text-anchor="middle">DARTANK</text>
+  <!-- floor line -->
+  <rect x="50" y="360" width="668" height="8" fill="#d9d2c6"/><line x1="50" y1="360" x2="718" y2="360" stroke="#1A1A1A" stroke-width="1.5"/>
+
+  <!-- dims -->
+  <g stroke="#777" stroke-width="0.8"><line x1="60" y1="130" x2="708" y2="130"/><line x1="60" y1="125" x2="60" y2="135"/><line x1="708" y1="125" x2="708" y2="135"/></g>
+  <text x="384" y="126" fill="#555" font-size="9" text-anchor="middle">12.00</text>
+  <g stroke="#777" stroke-width="0.8"><line x1="44" y1="144" x2="44" y2="360"/><line x1="39" y1="144" x2="49" y2="144"/><line x1="39" y1="360" x2="49" y2="360"/></g>
+  <text transform="translate(38,252) rotate(-90)" fill="#555" font-size="9" text-anchor="middle">4.00</text>
+
+  <!-- ===== NIGHT inset ===== -->
+  <text x="60" y="400" fill="#1A1A1A" font-size="11" font-weight="600">VUE DE NUIT — ENSEIGNE &amp; VITRINE RÉTROÉCLAIRÉES</text>
+  <rect x="60" y="408" width="430" height="180" fill="#0b0b0a" rx="3"/>
+  <rect x="74" y="420" width="402" height="24" fill="#141312"/>
+  <ellipse cx="275" cy="432" rx="150" ry="20" fill="url(#halo)"/>
+  <text x="282" y="439" fill="#f3d79e" font-size="15" letter-spacing="6" text-anchor="middle" font-weight="600">DARTANK</text>
+  <rect x="74" y="450" width="402" height="120" fill="#13201d"/>
+  <g fill="url(#halo)"><ellipse cx="200" cy="470" rx="70" ry="55"/></g>
+  <rect x="150" y="500" width="110" height="58" fill="#0e1413"/>
+  <rect x="172" y="466" width="22" height="50" fill="#e7decb"/><rect x="206" y="470" width="20" height="46" fill="#9C7A4D" opacity="0.6"/>
+  <rect x="86" y="458" width="40" height="100" fill="#0d1312" stroke="#9C7A4D" stroke-width="0.8"/>
+  <text x="106" y="552" fill="#9C7A4D" font-size="7" text-anchor="middle">entrée</text>
+  <text x="430" y="560" fill="#6b6155" font-size="7" text-anchor="end">halo laiton · vitrine = phare lumineux sur rue</text>
+
+  <!-- ===== LEGEND ===== -->
+  <rect x="506" y="408" width="450" height="180" fill="#1A1A1A" rx="4"/>
+  <text x="524" y="432" fill="#9C7A4D" font-size="12" letter-spacing="2" font-weight="600">PRINCIPE &amp; MATIÈRES</text>
+  <line x1="524" y1="440" x2="938" y2="440" stroke="#9C7A4D" stroke-width="1"/>
+  <g font-size="9.5" fill="#EDE9E3">
+    <text x="524" y="458">▸ Enseigne : lettres boîtier laiton brossé + emblème, halo LED 3000K</text>
+    <text x="524" y="476">▸ Vitrine plein cintre : un seul produit phare scénarisé, podium noir</text>
+    <text x="536" y="490" fill="#A9A399" font-size="8.5">mis en lumière — renouvelé à chaque collection / saison</text>
+    <text x="524" y="508">▸ Châssis anthracite mat, montants fins, verre extra-clair</text>
+    <text x="524" y="526">▸ Pylône latéral anthracite avec logotype vertical (repère de loin)</text>
+    <text x="524" y="544">▸ Entrée vitrée à gauche, poignée bâton laiton</text>
+    <text x="524" y="566" fill="#9C7A4D" font-weight="600">Objectif : lisibilité premium jour &amp; nuit, vitrine = aimant sur rue.</text>
+  </g>
+
+  <text x="28" y="636" fill="#999" font-size="9">DARTANK · Maison Drapée — Magasin 200 m² — Façade + vitrine — itération 1</text>
+</svg>
