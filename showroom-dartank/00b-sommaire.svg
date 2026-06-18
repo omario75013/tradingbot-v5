@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="980" height="660" fill="#F3F0EA"/>
+  <rect x="0" y="0" width="980" height="74" fill="#1A1A1A"/>
+  <text x="28" y="36" fill="#9C7A4D" font-size="26" letter-spacing="8" font-weight="600">DARTANK</text>
+  <text x="28" y="58" fill="#C9C4BB" font-size="11" letter-spacing="3">DOSSIER D'AMÉNAGEMENT — SOMMAIRE</text>
+  <text x="952" y="44" fill="#9C7A4D" font-size="11" text-anchor="end">Showroom de prescription · 70 m²</text>
+  <line x1="0" y1="74" x2="980" y2="74" stroke="#9C7A4D" stroke-width="2"/>
+
+  <g font-size="14" fill="#1A1A1A">
+    <g><text x="60" y="140" fill="#9C7A4D" font-weight="700" font-size="16">01</text><text x="120" y="140" font-weight="600">Plan d'aménagement 2D</text><text x="920" y="140" text-anchor="end" fill="#777" font-size="11">p. 3</text>
+      <text x="120" y="158" fill="#777" font-size="10">Zones légendées · cotes · parcours client · palette · surfaces</text></g>
+    <line x1="60" y1="172" x2="920" y2="172" stroke="#ddd"/>
+
+    <g><text x="60" y="200" fill="#9C7A4D" font-weight="700" font-size="16">02</text><text x="120" y="200" font-weight="600">Élévation matériauthèque — mur ouest</text><text x="920" y="200" text-anchor="end" fill="#777" font-size="11">p. 4</text>
+      <text x="120" y="218" fill="#777" font-size="10">Système modulable · calepinage par gamme · hauteurs de présentation</text></g>
+    <line x1="60" y1="232" x2="920" y2="232" stroke="#ddd"/>
+
+    <g><text x="60" y="260" fill="#9C7A4D" font-weight="700" font-size="16">03</text><text x="120" y="260" font-weight="600">Détail montant à crémaillère &amp; formats</text><text x="920" y="260" text-anchor="end" fill="#777" font-size="11">p. 5</text>
+      <text x="120" y="278" fill="#777" font-size="10">Coupes techniques · tableau formats / références · étiquetage</text></g>
+    <line x1="60" y1="292" x2="920" y2="292" stroke="#ddd"/>
+
+    <g><text x="60" y="320" fill="#9C7A4D" font-weight="700" font-size="16">04</text><text x="120" y="320" font-weight="600">Élévation mur est — 3 ambiances scénarisées</text><text x="920" y="320" text-anchor="end" fill="#777" font-size="11">p. 6</text>
+      <text x="120" y="338" fill="#777" font-size="10">Séjour · façade · minéral — produits posés en situation réelle</text></g>
+    <line x1="60" y1="352" x2="920" y2="352" stroke="#ddd"/>
+
+    <g><text x="60" y="380" fill="#9C7A4D" font-weight="700" font-size="16">05</text><text x="120" y="380" font-weight="600">Vue perspective d'ambiance</text><text x="920" y="380" text-anchor="end" fill="#777" font-size="11">p. 7</text>
+      <text x="120" y="398" fill="#777" font-size="10">Atmosphère générale depuis l'entrée vers l'espace prescription</text></g>
+    <line x1="60" y1="412" x2="920" y2="412" stroke="#ddd"/>
+
+    <g><text x="60" y="440" fill="#9C7A4D" font-weight="700" font-size="16">06</text><text x="120" y="440" font-weight="600">Concept d'éclairage</text><text x="920" y="440" text-anchor="end" fill="#777" font-size="11">p. 8</text>
+      <text x="120" y="458" fill="#777" font-size="10">Plan de plafond · appareils · 2700–3000 K · IRC&gt;90 · 4 scénarios</text></g>
+    <line x1="60" y1="472" x2="920" y2="472" stroke="#ddd"/>
+
+    <g><text x="60" y="500" fill="#9C7A4D" font-weight="700" font-size="16">07</text><text x="120" y="500" font-weight="600">Mood board matériaux &amp; finitions</text><text x="920" y="500" text-anchor="end" fill="#777" font-size="11">p. 9</text>
+      <text x="120" y="518" fill="#777" font-size="10">8 matières nobles · palette · principes d'association</text></g>
+    <line x1="60" y1="532" x2="920" y2="532" stroke="#ddd"/>
+
+    <g><text x="60" y="560" fill="#9C7A4D" font-weight="700" font-size="16">08</text><text x="120" y="560" font-weight="600">Signalétique &amp; logo DARTANK</text><text x="920" y="560" text-anchor="end" fill="#777" font-size="11">p. 10</text>
+      <text x="120" y="578" fill="#777" font-size="10">Emblème · enseigne façade · mur signature · endossement Maison Drapée</text></g>
+    <line x1="60" y1="592" x2="920" y2="592" stroke="#ddd"/>
+  </g>
+
+  <text x="60" y="624" fill="#999" font-size="9">DARTANK · Maison Drapée — Dossier d'aménagement showroom — palette anthracite #1A1A1A / bronze #9C7A4D</text>
+</svg>

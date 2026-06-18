@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="cglow" cx="0.5" cy="0.42" r="0.55"><stop offset="0" stop-color="#2a2722"/><stop offset="1" stop-color="#0e0d0b"/></radialGradient>
+    <radialGradient id="chalo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ffdf9e" stop-opacity="0.35"/><stop offset="1" stop-color="#ffdf9e" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="0" y="0" width="980" height="660" fill="url(#cglow)"/>
+  <rect x="40" y="40" width="900" height="580" fill="none" stroke="#9C7A4D" stroke-width="1.5"/>
+  <rect x="48" y="48" width="884" height="564" fill="none" stroke="#9C7A4D" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- emblem -->
+  <ellipse cx="490" cy="225" rx="180" ry="120" fill="url(#chalo)"/>
+  <g transform="translate(455,150) scale(1.15)">
+    <path d="M6,72 L6,30 Q6,6 30,6 Q54,6 54,30 L54,72" fill="none" stroke="#9C7A4D" stroke-width="4"/>
+    <path d="M16,72 L16,34 Q16,18 30,18 Q44,18 44,34 L44,72" fill="none" stroke="#9C7A4D" stroke-width="2"/>
+    <rect x="25" y="2" width="10" height="13" fill="#9C7A4D"/>
+    <rect x="2" y="71" width="56" height="3" fill="#9C7A4D"/>
+  </g>
+
+  <text x="490" y="320" fill="#EDE9E3" font-size="54" letter-spacing="22" text-anchor="middle" font-weight="600">DARTANK</text>
+  <line x1="330" y1="345" x2="650" y2="345" stroke="#9C7A4D" stroke-width="1"/>
+  <text x="490" y="370" fill="#9C7A4D" font-size="14" letter-spacing="8" text-anchor="middle">DÉCORATION ARCHITECTURALE</text>
+
+  <text x="490" y="440" fill="#C9C4BB" font-size="20" letter-spacing="4" text-anchor="middle">SHOWROOM DE PRESCRIPTION</text>
+  <text x="490" y="466" fill="#8a8278" font-size="12" letter-spacing="3" text-anchor="middle">DOSSIER D'AMÉNAGEMENT — 70 m²</text>
+
+  <text x="490" y="540" fill="#6b6155" font-size="10" letter-spacing="3" text-anchor="middle">CONCEPT &amp; ÉLÉVATIONS · ÉCLAIRAGE · MATÉRIAUX · SIGNALÉTIQUE</text>
+  <text x="490" y="585" fill="#6b6155" font-size="9" letter-spacing="2" text-anchor="middle">en collaboration avec MAISON DRAPÉE — papiers peints</text>
+</svg>
