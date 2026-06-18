@@ -55,7 +55,7 @@ prescription** → passage au **comptoir** en fond. Boucle naturelle, sans cul-d
 | # | Livrable | Fichier | Statut |
 |---|---|---|---|
 | 0 | Vue d'ensemble — plan 2D + parcours + palette | `01-plan-amenagement.svg` | ✅ |
-| 1 | Élévation matériauthèque (système d'échantillons) | à venir | ⏳ |
+| 1 | Élévation matériauthèque (système d'échantillons) | `02-elevation-materiautheque.svg` | ✅ |
 | 2 | Concept d'éclairage | à venir | ⏳ |
 | 3 | Planche matériaux & finitions (mood board) | à venir | ⏳ |
 | 4 | Signalétique + logo DARTANK | à venir | ⏳ |
